@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 for x in 'abcdefghijklmnopqrstuvwxyz':
-    print(x, end="")
+    print("{0}".format(x), end="")
     
