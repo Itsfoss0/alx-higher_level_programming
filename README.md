@@ -1,4 +1,3 @@
-<p align="center"><img src="./alx.png" width="120px"></p>
+![img](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
 
-<h1 align="center">ALX High Level Programming 
-</h1>
+## ALX High Level Programing 
