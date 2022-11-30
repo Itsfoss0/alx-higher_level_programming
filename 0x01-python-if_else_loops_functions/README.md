@@ -26,3 +26,7 @@ By the end of the session, you should be able to [explain to anyone](https://fs.
 * [X] What does the ```pass``` statement do, and when to use it
 * [X] How to use ```range```
 * [X] What is a function and how do you use functions
+* [X] What does return a function that does not use any ```return``` statement
+* [X] Scope of variables
+* [X] What’s a traceback
+* [X] What are the arithmetic operators and how to use them
