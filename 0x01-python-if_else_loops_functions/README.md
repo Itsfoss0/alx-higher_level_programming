@@ -17,3 +17,6 @@ By the end of the session, you should be able to [explain to anyone](https://fs.
 * [X] Why Python programming is awesome
 * [X] Why indentation is so important in Python
 * [X] How to use the ```if, if ... else``` statements
+* [X] How to use comments
+* [X] How to affect values to variables
+* [X] How to use the ```while``` and for ```loops```
