@@ -10,3 +10,6 @@ In this module, we will explore control structures in python (branching and loop
 2. [IndentationError](https://www.youtube.com/watch?v=1QXOd2ZQs-Q)
 3. [String formating](https://www.digitalocean.com/community/tutorials/how-to-use-string-formatters-in-python-3)
 4. [Looping](https://www.youtube.com/watch?v=swQEbZ6ez1I&list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt&index=2)
+
+## Learning objectives
+By the end of the session, you should be able to [explain to anyone](https://fs.blog/feynman-learning-technique/) without the help of google the following concepts.
