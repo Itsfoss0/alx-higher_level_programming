@@ -23,3 +23,6 @@ By the end of the session, you should be able to [explain to anyone](https://fs.
 * [X] How is Python’s ```for``` different from C‘s?
 * [X] How to use the ```break``` and ```continues``` statements
 * [X] How to use else clauses on loops
+* [X] What does the ```pass``` statement do, and when to use it
+* [X] How to use ```range```
+* [X] What is a function and how do you use functions
