@@ -2,3 +2,8 @@
 
 <h1 align="center">Introduction to programming in python
 </h1>
+
+## Intro 
+In this module, we  will explore the basics of programmin in python.
+
+### Resources
