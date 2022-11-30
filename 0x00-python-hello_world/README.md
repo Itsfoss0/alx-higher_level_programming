@@ -4,7 +4,7 @@
 </h1>
 
 ## Intro 
-In this module, we  will explore the basics of programmin in python.
+In this module, we  will explore the basics of programming in python.
 
 ### Resources
 1. [The python Tutorial](https://docs.python.org/3/tutorial/index.html)
@@ -15,3 +15,6 @@ In this module, we  will explore the basics of programmin in python.
 6. [Youtube](https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt)
 7. [PEP - python coding convention](https://peps.python.org/pep-0008/)
 8. [Pycodestyle](https://pypi.org/project/pycodestyle/)
+
+## Learning objectives 
+By the end of this session, you should be able to [explain to anyone](https://fs.blog/feynman-learning-technique/) without the help of Google the following.
