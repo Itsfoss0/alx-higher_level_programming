@@ -13,3 +13,7 @@ In this module, we will explore control structures in python (branching and loop
 
 ## Learning objectives
 By the end of the session, you should be able to [explain to anyone](https://fs.blog/feynman-learning-technique/) without the help of google the following concepts.
+
+* [X] Why Python programming is awesome
+* [X] Why indentation is so important in Python
+* [X] How to use the ```if, if ... else``` statements
