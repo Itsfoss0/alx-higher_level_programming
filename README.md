@@ -5,3 +5,6 @@
 
 ## About 
 This repository contains the code, concepts, resources and methodologies used to teach Fullstack software Engineering at [ALX Africa](https://www.alxafrica.com/)
+
+## Topics 
+* [0x00 Hello World](./0x00-python-hello_world/)- Introduction to python programming
