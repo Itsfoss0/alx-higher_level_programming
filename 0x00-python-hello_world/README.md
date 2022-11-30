@@ -18,3 +18,5 @@ In this module, we  will explore the basics of programming in python.
 
 ## Learning objectives 
 By the end of this session, you should be able to [explain to anyone](https://fs.blog/feynman-learning-technique/) without the help of Google the following.
+
+* [X] Why Python programming is awesome
