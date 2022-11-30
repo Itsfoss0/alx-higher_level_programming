@@ -39,4 +39,4 @@ By the end of this session, you should be able to [explain to anyone](https://fs
 * All your files must be executable
 
 
-<a href="../"><img src="https://www.svgrepo.com/show/94045/back.svg" alt="back" width="50px"></a>
+<a href="../README.md"><img src="https://www.svgrepo.com/show/94045/back.svg" alt="back" width="50px"></a>
