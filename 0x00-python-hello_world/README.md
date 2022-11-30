@@ -20,3 +20,12 @@ In this module, we  will explore the basics of programming in python.
 By the end of this session, you should be able to [explain to anyone](https://fs.blog/feynman-learning-technique/) without the help of Google the following.
 
 * [X] Why Python programming is awesome
+* [X] Who created Python
+* [X] Who is Guido van Rossum
+* [X] Where does the name ‘Python’ come from
+* [X] What is the Zen of Python
+* [X] How to use the Python interpreter
+* [X] How to print text and variables using print
+* [X] How to use strings 
+* [X] What are indexing and slicing in Python
+* [X] What is the official Python coding style and how to check your code with ```pycodestyle```
