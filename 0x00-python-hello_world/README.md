@@ -7,3 +7,11 @@
 In this module, we  will explore the basics of programmin in python.
 
 ### Resources
+1. [The python Tutorial](https://docs.python.org/3/tutorial/index.html)
+2. [Whetting your appetite](https://docs.python.org/3/tutorial/appetite.html)
+3. [Using the python interpreter](https://docs.python.org/3/tutorial/interpreter.html)
+4. [An informal introduction to python](https://docs.python.org/3/tutorial/introduction.html)
+5. [String formatting](https://realpython.com/python-f-strings/)
+6. [Youtube](https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt)
+7. [PEP - python coding convention](https://peps.python.org/pep-0008/)
+8. [Pycodestyle](https://pypi.org/project/pycodestyle/)
