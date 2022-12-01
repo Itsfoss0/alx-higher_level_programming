@@ -9,3 +9,4 @@ This repository contains the code, concepts, resources and methodologies used to
 ## Modules 
 * [0x00 Hello World](./0x00-python-hello_world/)- Introduction to python programming
 * [0x01 Control strucutures](./0x01-python-if_else_loops_functions) - Loops,if statememnts and functions  
+* [0x02 - Modules ](./0x02-python-import_modules) - Imports, modules and commandline arguments
