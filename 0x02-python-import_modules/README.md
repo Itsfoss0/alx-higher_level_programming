@@ -10,3 +10,9 @@ In this session, we will explore importin modules, packages and how to use comma
 1. [Modules](https://docs.python.org/3/tutorial/modules.html)
 2. [Commandline arguments](https://docs.python.org/3/tutorial/stdlib.html#command-line-arguments)
 3. [Code styling](https://pypi.org/project/pycodestyle/)
+
+
+## Learning objectives
+By the end of this session, you should be able to [explain to anyone](https://fs.blog/feynman-learning-technique/) without the help of Google the following concepts
+
+* [X] How to import functions from another file
