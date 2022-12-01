@@ -16,3 +16,8 @@ In this session, we will explore importin modules, packages and how to use comma
 By the end of this session, you should be able to [explain to anyone](https://fs.blog/feynman-learning-technique/) without the help of Google the following concepts
 
 * [X] How to import functions from another file
+* [X] How to use imported functions
+* [X] How to create a module
+* [X] How to use the built-in function ```dir()```
+* [X] How to prevent code in your script from being executed when imported
+* [X] How to use command line arguments with your Python programs
