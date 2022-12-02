@@ -21,3 +21,8 @@ At the end of this project, you should be able to [explain to anyone](https://fs
 * [X] How to use lists as stacks and queues
 * [X] What are list comprehensions and how to use them
 * [X] What are tuples and how to use them
+* [X] When to use tuples versus lists
+* [X] What is a sequence
+* [X] What is tuple packing
+* [X] What is sequence unpacking
+* [X] What is the del statement and how to use it
