@@ -5,22 +5,20 @@ import sys
 if __name__ == '__main__':
     if len(sys.argv) != 4:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
-        sys.exit(1);
-
+        sys.exit(1)
     else:
         opcode = str(sys.argv[2])
-        operand_1 = int(sys.argv[1])
-        operand_2 = int(sys.argv[3])
+        a = int(sys.argv[1])
+        b = int(sys.argv[3])
 
-        if  opcode == '+':
-            print("{0} + {1} = {2}".format(operand_1, operand_2, add(operand_1, operand_2)))
+        if opcode == '+':
+            print("{0} + {1} = {2}".format(a, b, add(a, b)))
         elif opcode == '-':
-            print("{0} - {1} = {2}".format(operand_1, operand_2, sub(operand_1, operand_2)))
+            print("{0} - {1} = {2}".format(a, b, sub(a, b)))
         elif opcode == '*':
-            print("{0} * {1} = {2}".format(operand_1, operand_2, mul(operand_1, operand_2)))
+            print("{0} * {1} = {2}".format(a, b, mul(a, b)))
         elif opcode == '/':
-            print("{0} / {1} = {2}".format(operand_1, operand_2, div(operand_1, operand_2)))
+            print("{0} / {1} = {2}".format(a, b, div(a, b)))
         else:
             print("Unknown operator. Available operators: +, -, * and /")
             sys.exit(1)
-            
