@@ -13,3 +13,4 @@ Code samples other than the tasks provided by ALX
         ## Exercises 
         1. Given a list of numbers, remove floats (numbers with decimals)
         2. Find all of the numbers from 1-1000 that are divisible by 7
+        3. Count the number of spaces in a string
