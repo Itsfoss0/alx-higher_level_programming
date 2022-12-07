@@ -8,3 +8,10 @@ In this session, we will explore lambda functions, map and dictionaries
 1. [More on Data structures](https://docs.python.org/3/tutorial/datastructures.html)
 2. [Lamda map reduce and filter](https://python-course.eu/advanced-python/lambda-filter-reduce-map.php)
 3. [Youtube](https://www.youtube.com/watch?v=1GAC6KQUPeg)
+
+## Learning objectives
+By the end of this session you should be able to [explain](https://fs.blog/feynman-learning-technique/) to anyone the followin concepts without  the help of Google
+
+- [X] What are sets and how to use them
+- [X] What are the most common methods of set and how to use them
+- [X] When to use sets versus lists
