@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """Find all of the words in a string that are less than 4 letters"""
-
 def less_than_4(string):
     return ([x for x in string.split(" ") if len(x) < 4])
 
