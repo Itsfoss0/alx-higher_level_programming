@@ -15,3 +15,7 @@ By the end of this session you should be able to [explain](https://fs.blog/feynm
 - [X] What are sets and how to use them
 - [X] What are the most common methods of set and how to use them
 - [X] When to use sets versus lists
+- [X] How to iterate into a set
+- [X] What are dictionaries and how to use them
+- [X] When to use dictionaries versus lists or sets
+- [X] What is a key in a dictionary
