@@ -19,3 +19,6 @@ By the end of this session you should be able to [explain](https://fs.blog/feynm
 - [X] What are dictionaries and how to use them
 - [X] When to use dictionaries versus lists or sets
 - [X] What is a key in a dictionary
+- [X] How to iterate over a dictionary
+- [X] What is a lambda function
+- [X] What are the map, reduce and filter functions
