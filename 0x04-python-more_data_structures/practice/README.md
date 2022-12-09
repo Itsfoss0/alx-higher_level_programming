@@ -20,3 +20,6 @@
 - [X] Limitations of using lambda functions
 
         only perform one expression
+
+### Exericises 
+1. Write a Python program to create a lambda function that adds 15 to a given number passed in as an argument. 
