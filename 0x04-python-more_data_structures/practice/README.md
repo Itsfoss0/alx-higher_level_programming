@@ -12,5 +12,9 @@
 - [X] Why use lambda functions
 
         When using functions as arguements in other HOF eg map, filter, reduce etc. 
-- [ ] The general syntax 
+
+- [X] The general syntax 
+
+        lambda argument(s) : expressions
+        
 - [ ] Limitations of using lambda functions
