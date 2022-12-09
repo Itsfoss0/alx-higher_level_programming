@@ -5,9 +5,7 @@
 - [X] What are lambda functions
 
          Short anonymous functions 
-
          Take any number of arguments
-
          Perform one expression on the 
         arguments and return the evaluated value
 
