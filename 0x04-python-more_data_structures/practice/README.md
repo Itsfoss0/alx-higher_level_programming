@@ -31,3 +31,4 @@
 7. Write a Python program to find intersection of two given arrays using Lambda
 8. Write a Python program to rearrange positive and negative numbers in a given array using Lambda
 9. Write a Python program to find the values of length six in a given list using Lambda.
+10. Write a Python program to find numbers divisible by nineteen or thirteen from a list of numbers using Lambda
