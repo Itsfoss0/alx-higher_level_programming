@@ -28,3 +28,5 @@
 4. Write a Python program to extract year, month, date and time using Lambda
 5. Write a Python program to check whether a given string is number or not using Lambda
 6. Write a Python program to create Fibonacci series upto n using Lambda
+7. Write a Python program to find intersection of two given arrays using Lambda
+8. Write a Python program to rearrange positive and negative numbers in a given array using Lambda
