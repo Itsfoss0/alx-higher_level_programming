@@ -36,3 +36,8 @@
 10. Write a Python program to find numbers divisible by nineteen or thirteen from a list of numbers using Lambda
 11. Write a Python program to find palindromes in a given list of strings using Lambda
 </details>
+
+## map function
+- [ ] What is the map function
+- [ ] When to  use map( )
+- [ ] The general syntax of using map ( )
