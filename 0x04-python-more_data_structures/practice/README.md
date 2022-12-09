@@ -27,3 +27,4 @@
 3. Write a Python program to find if a given string starts with a given character using Lambda
 4. Write a Python program to extract year, month, date and time using Lambda
 5. Write a Python program to check whether a given string is number or not using Lambda
+6. Write a Python program to create Fibonacci series upto n using Lambda
