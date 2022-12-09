@@ -2,7 +2,7 @@
 >Practice lambda functions, map, filter and reduce in python.
 
 ## [lambda practice ](https://www.google.com/search?q=lambda+functions+in+python)
-- [ ] What are lambda functions
+- [X] What are lambda functions
 - [ ] Why use lambda functions
 - [ ] The general syntax 
 - [ ] Limitations of using lambda functions
