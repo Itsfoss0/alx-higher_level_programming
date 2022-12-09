@@ -23,3 +23,4 @@
 
 ### Exericises 
 1. Write a Python program to create a lambda function that adds 15 to a given number passed in as an argument. 
+2. Write a function which takes two arguments: a and b and returns the multiplication of them: a*b
