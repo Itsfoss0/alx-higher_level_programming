@@ -16,5 +16,7 @@
 - [X] The general syntax 
 
         lambda argument(s) : expressions
-        
-- [ ] Limitations of using lambda functions
+
+- [X] Limitations of using lambda functions
+
+        only perform one expression
