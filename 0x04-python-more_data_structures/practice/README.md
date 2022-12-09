@@ -9,6 +9,8 @@
          Perform one expression on the 
          arguments and return the evaluated value
 
-- [ ] Why use lambda functions
+- [X] Why use lambda functions
+
+        When using functions as arguements in other HOF eg map, filter, reduce etc. 
 - [ ] The general syntax 
 - [ ] Limitations of using lambda functions
