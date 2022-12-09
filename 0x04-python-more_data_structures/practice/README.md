@@ -7,7 +7,7 @@
          Short anonymous functions 
          Take any number of arguments
          Perform one expression on the 
-        arguments and return the evaluated value
+         arguments and return the evaluated value
 
 - [ ] Why use lambda functions
 - [ ] The general syntax 
