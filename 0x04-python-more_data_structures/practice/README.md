@@ -30,3 +30,4 @@
 6. Write a Python program to create Fibonacci series upto n using Lambda
 7. Write a Python program to find intersection of two given arrays using Lambda
 8. Write a Python program to rearrange positive and negative numbers in a given array using Lambda
+9. Write a Python program to find the values of length six in a given list using Lambda.
