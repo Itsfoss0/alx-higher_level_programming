@@ -26,3 +26,4 @@
 2. Write a function which takes two arguments: a and b and returns the multiplication of them: a*b
 3. Write a Python program to find if a given string starts with a given character using Lambda
 4. Write a Python program to extract year, month, date and time using Lambda
+5. Write a Python program to check whether a given string is number or not using Lambda
