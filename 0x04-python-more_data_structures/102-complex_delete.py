@@ -2,5 +2,7 @@
 def complex_delete(a_dictionary, value):
     if value not in dictionary.items():
         return a_dictionary
-    del a_dictionary[value]
+    for val in a_dictionary.values():
+        if val == value:
+            del a_dictionary[value]
     return a_dictionary
