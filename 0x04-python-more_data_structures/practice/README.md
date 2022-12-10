@@ -40,4 +40,4 @@
 ## map function
 - [X] What is the map function
 - [X] When to  use map( )
-- [ ] The general syntax of using map ( )
+- [X] The general syntax of using map ( )
