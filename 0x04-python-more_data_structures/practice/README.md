@@ -49,4 +49,5 @@
 2. Write a map function that returns the squares of the items in the list.<br/>
 3. Write a map function that adds "Hello, " in front of each item in the list.<br/>
 4. Using map() function and len() function create a list that's consisted of lengths of each element in the first list.
+5. Using map() function and lambda add each elements of two lists together. Use a lambda with two arguments.
 </details>
