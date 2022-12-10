@@ -38,6 +38,6 @@
 </details>
 
 ## map function
-- [ ] What is the map function
+- [X] What is the map function
 - [ ] When to  use map( )
 - [ ] The general syntax of using map ( )
