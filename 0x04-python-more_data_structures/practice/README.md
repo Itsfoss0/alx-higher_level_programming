@@ -39,5 +39,5 @@
 
 ## map function
 - [X] What is the map function
-- [ ] When to  use map( )
+- [X] When to  use map( )
 - [ ] The general syntax of using map ( )
