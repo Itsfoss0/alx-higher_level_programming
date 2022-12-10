@@ -37,7 +37,7 @@
 11. Write a Python program to find palindromes in a given list of strings using Lambda<br/>
 </details>
 
-## map function
+## [map function](https://www.google.com/search?q=map+function+in+python)
 - [X] What is the map function
 - [X] When to  use map( )
 - [X] The general syntax of using map ( )
