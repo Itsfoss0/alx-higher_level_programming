@@ -1,7 +1,7 @@
 ![img](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
 >Practice lambda functions, map, filter and reduce in python.
 
-## [lambda practice ](https://www.google.com/search?q=lambda+functions+in+python)
+## [lambda functions ](https://www.google.com/search?q=lambda+functions+in+python)
 - [X] What are lambda functions
 
          Short anonymous functions 
@@ -48,4 +48,5 @@
 1. Write a map function that adds plus 5 to each item in the list.<br/>
 2. Write a map function that returns the squares of the items in the list.<br/>
 3. Write a map function that adds "Hello, " in front of each item in the list.<br/>
+4. Using map() function and len() function create a list that's consisted of lengths of each element in the first list.
 </details>
