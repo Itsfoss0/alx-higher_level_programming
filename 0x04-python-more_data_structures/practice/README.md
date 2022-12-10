@@ -41,3 +41,9 @@
 - [X] What is the map function
 - [X] When to  use map( )
 - [X] The general syntax of using map ( )
+
+
+<details>
+<summary>Map exercises</summary>
+1. Write a map function that adds plus 5 to each item in the list.
+</details>
