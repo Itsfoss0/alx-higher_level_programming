@@ -47,4 +47,5 @@
 <summary>Map exercises</summary>
 1. Write a map function that adds plus 5 to each item in the list.
 2. Write a map function that returns the squares of the items in the list.
+3. Write a map function that adds "Hello, " in front of each item in the list.
 </details>
