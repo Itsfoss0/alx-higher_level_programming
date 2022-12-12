@@ -51,4 +51,5 @@
 4. Using map() function and len() function create a list that's consisted of lengths of each element in the first list.
 5. Using map() function and lambda add each elements of two lists together. Use a lambda with two arguments.
 6. Write a Python program to convert all the characters in uppercase and lowercase and eliminate duplicate letters from a given sequence. Use map() function
+7. Write a Python program to convert a given list of tuples to a list of strings using map function
 </details>
