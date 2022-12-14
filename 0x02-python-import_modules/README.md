@@ -41,6 +41,7 @@ By the end of this session, you should be able to [explain to anyone](https://fs
         left: 0 ;
     }
 </style>
+
 <div style='postion:relative'>
 <a href="../0x01-python-if_else_loops_functions"><img src="https://www.svgrepo.com/show/94045/back.svg" alt="back" width="50px" class="left"></a>
 <a a href="./0x03-python-data_structures"><img src="https://www.svgrepo.com/show/327700/chevron-forward-circle.svg" width="60px" class="right"></a>
