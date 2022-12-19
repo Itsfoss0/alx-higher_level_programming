@@ -12,4 +12,4 @@ This repository contains the code, concepts, resources and methodologies used to
 * [0x02 Modules ](./0x02-python-import_modules) - Imports, modules and commandline arguments
 * [0x03 Lists](./0x03-python-data_structures/) - Data structures 
 * [0x04 More Data structures](./0x04-python-more_data_structures/) - Dictionaries, map, reduce and lambda functions 
-* [0x05 Exceptions](./0x05-python-exceptions)
+* [0x05 Exceptions](./0x05-python-exceptions) Error and exception handling 
