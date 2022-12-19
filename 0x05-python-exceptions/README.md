@@ -5,3 +5,7 @@
 In this session, we will explore python exceptions and how these exceptions can be handled. 
 
 ## Resources 
+1. [Errors and Exeptions](https://docs.python.org/3/tutorial/errors.html)
+2. [Exception Handling](https://www.youtube.com/watch?v=7vbgD-3s-w4)
+3. [Youtube](https://www.youtube.com/results?search_query=exceptions+in+python)
+4. [Google](https://www.google.com/search?q=python+exceptions)
