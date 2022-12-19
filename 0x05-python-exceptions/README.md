@@ -19,3 +19,4 @@ By the end of this session, you should be able to [explain to anyone](https://fs
 * [X] How to correctly handle an exception
 * [X] What’s the purpose of catching exceptions
 * [X] How to raise a builtin exception
+* [X] When do we need to implement a clean-up action after an exception
