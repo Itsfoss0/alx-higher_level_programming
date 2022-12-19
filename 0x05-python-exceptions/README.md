@@ -20,3 +20,11 @@ By the end of this session, you should be able to [explain to anyone](https://fs
 * [X] What’s the purpose of catching exceptions
 * [X] How to raise a builtin exception
 * [X] When do we need to implement a clean-up action after an exception
+
+## Script Requirements 
+* Allowed editors: vi, vim, emacs
+* All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
+* All your files should end with a new line
+* The first line of all your files should be exactly #!/usr/bin/python3
+* Your code should use the pycodestyle (version 2.8.*)
+* All your files must be executable
