@@ -12,3 +12,7 @@ In this session, we will explore python exceptions and how these exceptions can 
 
 ## Learning objectives
 By the end of this session, you should be able to [explain to anyone](https://fs.blog/feynman-learning-technique/) the following concepts without the help of Google. 
+
+* [X] What’s the difference between errors and exceptions
+* [X] What are exceptions and how to use them
+* [X] When do we need to use exceptions
