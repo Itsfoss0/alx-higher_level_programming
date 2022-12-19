@@ -2,7 +2,7 @@
 > Exceptions and Exception handling 
 
 ## Intro
-In this session, we will explore python exceptions and how these exceptions can be handled. 
+In this session, we will explore python exceptions, the different types of exceptions and how these exceptions can be handled. 
 
 ## Resources 
 1. [Errors and Exeptions](https://docs.python.org/3/tutorial/errors.html)
