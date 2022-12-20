@@ -31,3 +31,4 @@ By the end of this session, you should be able to [explain to anyone](https://fs
 * [X] What is the Pythonic way to write getters and setters in Python
 * [X] How to dynamically create arbitrary new attributes for existing instances of a class
 * [X] How to bind attributes to object and classes
+* [X] What is the ```__dict__``` of a class and/or instance of a class and what does it contain
