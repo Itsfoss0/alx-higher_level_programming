@@ -32,3 +32,5 @@ By the end of this session, you should be able to [explain to anyone](https://fs
 * [X] How to dynamically create arbitrary new attributes for existing instances of a class
 * [X] How to bind attributes to object and classes
 * [X] What is the ```__dict__``` of a class and/or instance of a class and what does it contain
+* [X] How does Python find the attributes of an object or class
+* [X] How to use the getattr function
