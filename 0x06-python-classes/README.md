@@ -11,3 +11,6 @@ In this session, we will explore OOP in python. OOP is a totally new concept for
 4. [Learn to program - part 9 ](https://www.youtube.com/watch?v=1AGyBuVCTeE&)
 5. [Python classes and objects](https://www.youtube.com/watch?v=apACNr7DC_s)
 6. [OOP](https://www.youtube.com/watch?v=-DP1i2ZU9gk)
+
+## Learning objectives
+By the end of this session, you should be able to [explain to anyone](https://fs.blog/feynman-learning-technique/) the following concepts without the help of Google.
