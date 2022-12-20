@@ -18,3 +18,6 @@ By the end of this session, you should be able to [explain to anyone](https://fs
 * [x] What is OOP
 * [x] “first-class everything”
 * [x] What is a class
+* [X] What is an object and an instance
+* [X] What is the difference between a class and an object or instance
+* [X] What is an attribute
