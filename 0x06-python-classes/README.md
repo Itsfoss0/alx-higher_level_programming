@@ -14,3 +14,7 @@ In this session, we will explore OOP in python. OOP is a totally new concept for
 
 ## Learning objectives
 By the end of this session, you should be able to [explain to anyone](https://fs.blog/feynman-learning-technique/) the following concepts without the help of Google.
+
+* [x] What is OOP
+* [x] “first-class everything”
+* [x] What is a class
