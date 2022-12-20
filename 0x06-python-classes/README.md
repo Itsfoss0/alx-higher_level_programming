@@ -21,3 +21,8 @@ By the end of this session, you should be able to [explain to anyone](https://fs
 * [X] What is an object and an instance
 * [X] What is the difference between a class and an object or instance
 * [X] What is an attribute
+* [X] What are and how to use public, protected and private attributes
+* [X] What is ```self```
+* [X] What is a method
+* [X] What is the special ```__init__``` method and how to use it
+* [X] What is Data Abstraction, Data Encapsulation, and Information Hiding
