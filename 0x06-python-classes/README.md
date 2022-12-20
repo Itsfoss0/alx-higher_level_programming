@@ -26,3 +26,8 @@ By the end of this session, you should be able to [explain to anyone](https://fs
 * [X] What is a method
 * [X] What is the special ```__init__``` method and how to use it
 * [X] What is Data Abstraction, Data Encapsulation, and Information Hiding
+* [X] What is a property
+* [X] What is the difference between an attribute and a property in Python
+* [X] What is the Pythonic way to write getters and setters in Python
+* [X] How to dynamically create arbitrary new attributes for existing instances of a class
+* [X] How to bind attributes to object and classes
