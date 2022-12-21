@@ -23,7 +23,7 @@ class Square():
         """Set the value of the square
         Args:
             value (int)
-        Returns:    
+        Returns:
             None
         """
         if (not isinstance(value, int)):
@@ -36,7 +36,7 @@ class Square():
         """Compute and Return area
         Args:
             None
-        Returns 
-            __size x 4 
+        Returns
+            __size x 4
         """
-        return self.__size * 4
+        return self.__size ** 2 
