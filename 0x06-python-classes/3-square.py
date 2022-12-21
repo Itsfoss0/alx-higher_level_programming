@@ -20,4 +20,4 @@ class Square():
         """Compute the area of the current square
         Args:
             None """
-        return (self.size * 4)
+        return (self.__size * 4)
