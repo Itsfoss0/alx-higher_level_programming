@@ -18,4 +18,24 @@ class Square:
         self.__size = size
 
     def area(self):
+        """Get area of the current square"""
         return self.__size ** 2
+
+    def size(self):
+        """Get the value of size
+        Return: __size (int)
+        """
+        return self.__size
+
+    def size(self, value):
+        """Set the value of size
+        Args:
+        size (int)
+        Return:
+        None
+        """
+        if (not isinstance(value, int)):
+            raise TypeError("size must be an integer")
+        elif (value < 0):
+            raise ValueError("size must be >= 0")
+        self.__size = value
