@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""Working with OOP in python"""
+"""Square class to represent a square"""
 
 
 class Square:
-    """Implementing the square class"""
+    """Implementing square class """
     pass
