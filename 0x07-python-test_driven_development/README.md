@@ -12,3 +12,10 @@ Starting from today:
 - We strongly encourage you to work together on test cases, so that you don’t miss any edge case. __But not in the implementation of them!__
 
 - __Don’t trust the user__, always think about all possible edge cases
+
+## Resources
+1. [doctest- Test interactive python examples](https://docs.python.org/3.4/library/doctest.html)
+2. [doctets - Testing through documentation](https://pymotw.com/3/doctest/)
+3. [unit tests in python](https://www.youtube.com/watch?v=1Lfv5tUGsn8)
+4. [unittest module](https://www.youtube.com/watch?v=6tNS--WetLI)
+5. [Interactive and non-interactive tests](https://mattermost.com/blog/testing-python-understanding-doctest-and-unittest/)
