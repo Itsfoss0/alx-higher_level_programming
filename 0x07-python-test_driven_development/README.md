@@ -22,3 +22,10 @@ Starting from today:
 
 ## Learning objectives
 By the end of this session, you should be able to [explain to anyone](https://fs.blog/feynman-learning-technique/) the following concepts without the help of Google.
+
+* [X] What’s an interactive test
+* [X] Why tests are important
+* [X] How to write Docstrings to create tests
+* [X] How to write documentation for each module and function
+* [X] What are the basic option flags to create tests
+* [X] How to find edge cases
