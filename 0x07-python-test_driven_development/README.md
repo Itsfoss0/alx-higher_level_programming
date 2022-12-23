@@ -56,3 +56,4 @@ Each module, class, and method must contain docstring as comments see [example](
 python3 -m doctest ./tests/*
 ```
 - All your modules should have a documentation (python3 -c 'print(__import__("my_module").__doc__)')
+- All your functions should have a documentation (```python3 -c 'print(__import__("my_module").my_function.__doc__)'```)
