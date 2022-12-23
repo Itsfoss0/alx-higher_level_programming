@@ -49,4 +49,4 @@ Each module, class, and method must contain docstring as comments see [example](
 
 ### Python test cases
 - All your files should end with a new line
-- 
+- All your test files should be inside a folder ```tests```
