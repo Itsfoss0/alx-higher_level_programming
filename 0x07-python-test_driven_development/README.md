@@ -19,3 +19,6 @@ Starting from today:
 3. [unit tests in python](https://www.youtube.com/watch?v=1Lfv5tUGsn8)
 4. [unittest module](https://www.youtube.com/watch?v=6tNS--WetLI)
 5. [Interactive and non-interactive tests](https://mattermost.com/blog/testing-python-understanding-doctest-and-unittest/)
+
+## Learning objectives
+By the end of this session, you should be able to [explain to anyone](https://fs.blog/feynman-learning-technique/) the following concepts without the help of Google.
