@@ -15,3 +15,4 @@ class Vehicle:
         self.max_speed = max_speed
         self.mileage = mileage
 ```
+4. Create a Bus class that inherits from the Vehicle class. Give the capacity argument of Bus.seating_capacity() a default value of 50.
