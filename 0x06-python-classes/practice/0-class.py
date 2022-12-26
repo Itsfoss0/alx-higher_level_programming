@@ -4,10 +4,10 @@ class Vehicle:
 
     def __init__(self, max_speed, milleage):
         """
-        Initialize the values 
+        Initialize the values
         Args:
             max_speed (int): maximum speed of the vehicle
-            milleage (int): 
+            milleage (int):
         """
         self.max_speed = max_speed
         self.milleage = milleage
