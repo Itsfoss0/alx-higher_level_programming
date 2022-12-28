@@ -27,31 +27,41 @@ class Node:
         else:
             self.__next_node = value
 
+
 class SinglyLinkedList:
-    """A list of Nodes that are linked singly"""
+    """Represent a singly-linked list."""
+
     def __init__(self):
+        """Initalize a new SinglyLinkedList."""
         self.__head = None
 
     def sorted_insert(self, value):
-        """Insert a new node into the SLL"""
-        new_node = Node(value)
+        """Insert a new Node to the SinglyLinkedList.
+        The node is inserted into the list at the correct
+        ordered numerical position.
+        Args:
+            value (Node): The new Node to insert.
+        """
+        new = Node(value)
         if self.__head is None:
-            new_node.next_node = None
-            self.__head = new_node
+            new.next_node = None
+            self.__head = new
         elif self.__head.data > value:
-            new_node.next_node = self.__head
-            self.__head = new_node
+            new.next_node = self.__head
+            self.__head = new
         else:
-            temp = self.__head
-            while (temp.next_node is not None and temp.next_node.data < value):
-                temp = temp.next_node
-            new_node.next_node = temp.next_node
-            temp.next_node = new_node
-
-        def __str__(self):
-            """Define how print(SinglyLinkedLits()) would be"""
-            node_values = []
             tmp = self.__head
-            while tmp is not None:
+            while (tmp.next_node is not None and
+                    tmp.next_node.data < value):
                 tmp = tmp.next_node
-            return ("\n".join(node_values)
+            new.next_node = tmp.next_node
+            tmp.next_node = new
+
+    def __str__(self):
+        """Define the print() representation of a SinglyLinkedList."""
+        values = []
+        tmp = self.__head
+        while tmp is not None:
+            values.append(str(tmp.data))
+            tmp = tmp.next_node
+        return ('\n'.join(values))
