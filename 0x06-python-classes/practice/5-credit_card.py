@@ -91,7 +91,7 @@ class CreditCard:
         if not (isinstance(amount, int)):
             raise TypeError("Damn it! You are supposed to charge money not {}".format(amount))
             return 
-        elif:
+        else:
             self.__balance -= amount
             return True
 
