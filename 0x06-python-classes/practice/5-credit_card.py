@@ -79,3 +79,20 @@ class CreditCard:
         except Exception as e:
             return (e)
 
+    @property
+    def balance(self):
+        """Check card balance"""
+        return self.__balance
+
+
+    @balance.setter
+    def charge(self, amount):
+        """Charge some amount from the credit card"""
+        if not (isinstance(amount, int)):
+            raise TypeError("Damn it! You are supposed to charge money not {}".format(amount))
+            return 
+        elif:
+            self.__balance -= amount
+            return True
+
+cc = CreditCard("John Doe", "123-2422-3234", "Carlifornia Savings", 1000, 204)
