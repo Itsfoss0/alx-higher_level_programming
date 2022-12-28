@@ -53,7 +53,29 @@ class CreditCard:
             return ("Switched branch from to {}".format(bank))
         else:
             return "Cannot Switch to the same branch"
-
-
     
+    @property
+    def limit(self):
+        """Get the limit of the card"""
+        return self.__limit
+
+    @limit.setter
+    def limit(self, increment):
+        """Increment the current limit by increment
+
+        Args:
+            increment (int) -> the value to be added to current limit
+        """
+        try:
+
+            if (not isinstance(increment, int)):
+                raise TypeError("Can only increment by a number")
+            if increment == 0:
+                raise ValueError("Cannot Increment by Zero")
+            else:
+                self.__limit += increment
+                return True
+
+        except Exception as e:
+            return (e)
 
