@@ -24,3 +24,13 @@ class Node:
     def next_node(self, value):
         if (not isinstance(value, Node) or value is not None):
             raise TypeError("next_node must be a Node Object")
+
+class SinglyLinkedList:
+    """A list of Nodes that are linked singly"""
+    def __init__(self):
+
+
+    def __repr__(self):
+        return "{}"
+
+        
