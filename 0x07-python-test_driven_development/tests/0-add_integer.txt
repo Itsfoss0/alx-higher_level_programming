@@ -50,3 +50,12 @@ TypeError('a must be an integer')
 
 >>> add_integer(2.0, "string")
 TypeError('b must be an integer')
+
+>>> add_integer(2.1, None)
+TypeError('b must be an integer')
+
+>>> add_integer(2.1, [1,2,3,4])
+TypeError('b must be an integer')
+
+>>> add_integer(float(2), int(3))
+5
