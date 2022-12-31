@@ -22,24 +22,19 @@ usage
 -2
 
 >>> add_integer(None)
-Traceback (most recent call last):
-TypeError: a must be an integer
+TypeError('a must be an integer')
 
 >>> add_integer("string", 12)
-Traceback (most recent call last):
-TypeError: a must be an integer
+TypeError('a must be an integer')
 
 >> add_integer(12, "string")
-Traceback (most recent call last):
-TypeError: b must be an integer
+TypeError('b must be an integer')
 
 >>> add_integer(12, None)
-Traceback (most recent call last):
-TypeError: b must be an integer
+TypeError('b must be an integer')
 
 >>> add_integer(None, 12)
-Traceback (most recent call last):
-TypeError: a must be an integer
+TypeError('a must be an integer')
 
 >>> add_integer(2.0, 1)
 3
@@ -54,9 +49,4 @@ TypeError: a must be an integer
 3
 
 >>> add_integer(2.0, "string")
-Traceback (most recent call last):
-TypeError: b must be an integer
-
->>> add_integer(name, 132)
-Traceback (most recent call last):
-NameError: name is not defined
+TypeError('b must be an integer')
