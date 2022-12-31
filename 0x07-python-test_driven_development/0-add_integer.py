@@ -6,7 +6,7 @@ def add_integer(a, b=98):
         b(int) -> The second arg, if not passed, 98 is assumed to be the value
     Returns an int
     """
-    try: 
+    try:
         if not (isinstance(a, int)) and not isinstance(a, float):
             raise TypeError("a must be an integer")
         elif not (isinstance(b, int)) and not isinstance(b, float):
