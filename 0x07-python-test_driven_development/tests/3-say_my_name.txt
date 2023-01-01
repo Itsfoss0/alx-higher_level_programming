@@ -56,3 +56,6 @@ Test cases:
     Traceback (most recent call last):
     ...
     NameError: name 'name' is not defined
+
+    >>> say_my_name(str(30), str(32))
+    'My name is 30 32'
