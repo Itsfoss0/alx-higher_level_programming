@@ -47,3 +47,12 @@ Test cases:
     >>> say_my_name(None, None)
     TypeError('first_name must be a string')
 
+    >>> say_my_name()
+    Traceback (most recent call last):
+    ...
+    TypeError: say_my_name() missing 1 required positional argument: 'first_name'
+
+    >>> say_my_name(name, "Doe")
+    Traceback (most recent call last):
+    ...
+    NameError: name 'name' is not defined
