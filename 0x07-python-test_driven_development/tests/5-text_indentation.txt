@@ -10,4 +10,58 @@ Usage:
     and prints it to standard output, replacing every ".", ":" or "?" with double "\n"
 
 Test:
-    >>> 
+    >>> text_indentation = __import__('5-text_indentation').text_indentation
+
+    >>> text_indentation(32)
+    TypeError('text must be a string')
+
+    >>> text_indentation("I hate John Doe")
+    I hate John Doe
+
+    >>> text_indentation("Python Test are awesome")
+    Python Test are awesome
+
+    >>> text_indentation("This one should break.")
+    This one should break.
+    <BLANKLINE>
+
+    >>> text_indentation()
+    Traceback (most recent call last):
+    ...
+    TypeError: text_indentation() missing 1 required positional argument: 'text'
+
+    >>> text_indentation(None)
+    TypeError('text must be a string')
+
+    >>> text_indentation("Did you say you love her?")
+    Did you say you love her?
+    <BLANKLINE>
+
+    >>> text_indentation("Hello. Itsfoss here. Wanna see something cool?")
+    Hello.
+    <BLANKLINE>
+    Itsfoss here.
+    <BLANKLINE>
+    Wanna see something cool?
+    <BLANKLINE>
+
+    >>> text_indentation(":")
+    :
+    <BLANKLINE>
+
+    >> text_indentation("?.:")
+    ?
+    <BLANKLINE>
+    .
+    <BLANKLINE>
+    :
+    <BLANKLINE>
+
+    >>> text_indentation(str("30"))
+    30
+
+    >>> text_indentation("? 90 Days of Docker?")
+    ?
+    <BLANKLINE>
+    90 Days of Docker?
+    <BLANKLINE>
