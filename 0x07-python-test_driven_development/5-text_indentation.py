@@ -1,16 +1,19 @@
 #!/usr/bin/python3
 def text_indentation(text):
     try:
-        if not isinstance(text, str):
-            raise TypeError("text must be a string")
-        else:
-            for character in text.strip():
-                if character not in [".", "?", ":"]:
-                    print(character, end="")
-                else:
-                    print()
-                    print()
+        c = 0
+        while c < len(text) and text[c] == ' ':
+            c += 1
+        # Dont know what I did right here
+        while c < len(text):
+            print(text[c], end="")
+            if text[c] == "\n" or text[c] in ".?:":
+                if text[c] in ".?:":
+                    print("\n")
+                c += 1
+                while c < len(text) and text[c] == ' ':
+                    c += 1
+                continue
+            c += 1
     except Exception as exc:
-        return exc
-
-print(text_indentation("I hate John Doe so much.I'd really love to kill him and his: "))
+        return (exc)
