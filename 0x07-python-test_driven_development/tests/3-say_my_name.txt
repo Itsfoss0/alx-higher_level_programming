@@ -12,4 +12,38 @@ Test cases:
     >>> say_my_name = __import__('3-say_my_name').say_my_name
 
     >>> say_my_name("John", "Doe")
-    My name is John Doe 
+    'My name is John Doe'
+
+    >>> say_my_name("Bruce", "Willies")
+    'My name is Bruce Willies'
+
+    >>> say_my_name(12, "Python")
+    TypeError('first_name must be a string')
+
+    >>> say_my_name("Santa", 23)
+    TypeError('last_name must be a string')
+
+    >>> say_my_name(["var", "Random"], "Claus")
+    TypeError('first_name must be a string')
+
+    >>> say_my_name(23.09, 234)
+    TypeError('first_name must be a string')
+
+    >>> say_my_name(23.09, "Sam Smith")
+    TypeError('first_name must be a string')
+
+    >>> say_my_name("Sam Smith", 23.98)
+    TypeError('last_name must be a string')
+
+    >>> say_my_name(None)
+    TypeError('first_name must be a string')
+
+    >>> say_my_name("Julien", "Barbier")
+    'My name is Julien Barbier'
+
+    >>> say_my_name("Fred", None)
+    TypeError('last_name must be a string')
+
+    >>> say_my_name(None, None)
+    TypeError('first_name must be a string')
+
