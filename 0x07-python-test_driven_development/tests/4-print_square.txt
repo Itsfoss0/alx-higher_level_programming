@@ -14,3 +14,21 @@ Usage:
     ###
     ###
     ###
+    
+    >>> print_square(2.0)
+    TypeError('size must be an integer')
+
+    >>> print_square(name)
+    Traceback (most recent call last):
+    ...
+    NameError: name 'name' is not defined
+
+    >>> print_square()
+    Traceback (most recent call last):
+    ...
+    TypeError: print_square() missing 1 required positional argument: 'size'
+
+    >>> print_square(None)
+    TypeError('size must be an integer')
+
+
