@@ -5,7 +5,7 @@ def say_my_name(first_name, last_name=""):
         first_name (str) -> The first name
         last_name (str)  -> The last name
     Returns:
-        'My name is <first_name> <last_name>
+        'My name is <first_name> <last_name>'
     """
     try:
         if not isinstance(first_name, str):
