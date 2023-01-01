@@ -1,25 +1,21 @@
 #!/usr/bin/python3
 import unittest
 
-def max_integer(list=[]):
-    """Function to find and return the max integer in a list of integers
-        If the list is empty, the function returns None
-    """
-    if len(list) == 0:
-        return None
-    result = list[0]
-    i = 1
-    while i < len(list):
-        if list[i] > result:
-            result = list[i]
-        i += 1
-    return result
-
-
+max_integer = __import__('6-max-integer').max_integer
 class TestMaxInteger(unittest.TestCase):
-    """Test cases"""
-    def __init__(self):
-        pass
-    def test_maxinteget(self):
-        self.AssertEqual(max_integer([1, 2, 3, 4]), 4)
-        self.AsserRaises(max_integer("some string"), None)
+    """Defining unit tests for max_integer function"""
+    def test_maxinteger_sorted(self):
+        """Test for a sorted list"""
+        self.assertEqual(max_integer([1, 2, 3, 4]), 4)
+        
+    def test_maxinteger_unsorted(self):
+        """Tests for an unsorted list"""
+        self.assertEqual(max_integer([1, 3, 4, 2]), 4)
+
+    def test_maxinteger_reverse(self):
+        """"Tests for a reverse sorted lists"""
+        self.assertEqual(max_integer([4, 3, 2, 1]), 4)
+
+
+if __name__ == '__main__':
+    unittest.main()
