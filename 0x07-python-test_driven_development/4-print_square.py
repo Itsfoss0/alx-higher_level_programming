@@ -14,8 +14,3 @@ def print_square(size):
                 print()
     except Exception as e:
         return (e)
-
-print_square(3)
-print(print_square(2.0))
-print(print_square(0))
-print(print_square(-1))
