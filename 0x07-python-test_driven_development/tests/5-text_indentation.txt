@@ -1,0 +1,13 @@
+===============================
+5-text_indentation.py
+==============================
+
+Usage:
+    The text_indentation function takes one argument
+    a) text(str) -> The string to be printed
+                 -> Raises TypeError if its not a string
+
+    and prints it to standard output, replacing every ".", ":" or "?" with double "\n"
+
+Test:
+    >>> 
