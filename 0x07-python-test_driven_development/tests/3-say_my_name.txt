@@ -1,0 +1,15 @@
+===============================
+3-say_my_name.py
+===============================
+
+Usage:
+    The say_my_name function takes two arguments when called
+        a) first_name (a string) -> The first name 
+        b) last_name (a string)  -> The last name, if nothing is passed, an empty string is assumed
+    and returns a string  "My name is <first_name> <last_name>"
+
+Test cases: 
+    >>> say_my_name = __import__('3-say_my_name').say_my_name
+
+    >>> say_my_name("John", "Doe")
+    My name is John Doe 
