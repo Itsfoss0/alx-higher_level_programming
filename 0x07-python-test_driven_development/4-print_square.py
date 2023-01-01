@@ -6,7 +6,7 @@ def print_square(size):
                         -> Must be an int or a float >= 0
     Returns nothing except if an exception occured,
     in which case the exception raised is returned
-    """"
+    """
     try:
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
