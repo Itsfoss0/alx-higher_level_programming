@@ -1,0 +1,16 @@
+===============================
+4-print_square.py
+==============================
+
+Usage:
+    The print_square function takes one argument
+    a) size(int) -> The size of the square. 
+                 -> Must be an int or a float >= 0 
+    and prints the square to standard output
+
+    >>> print_square = __import__('4-print_square').print_square
+
+    >>> print_square(3)
+    ###
+    ###
+    ###
