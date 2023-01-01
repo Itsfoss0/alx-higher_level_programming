@@ -31,4 +31,8 @@ Usage:
     >>> print_square(None)
     TypeError('size must be an integer')
 
-
+    >>> print_square(0)
+    
+    
+    >>> print_square(-1)
+    ValueError('size must be >= 0')
