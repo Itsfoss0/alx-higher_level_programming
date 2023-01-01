@@ -65,3 +65,11 @@ Test:
     <BLANKLINE>
     90 Days of Docker?
     <BLANKLINE>
+
+    >>> text_indentation("Are you a robot:?.")
+    Are you a robot:
+    <BLANKLINE>
+    ?
+    <BLANKLINE>
+    .
+    <BLANKLINE>
