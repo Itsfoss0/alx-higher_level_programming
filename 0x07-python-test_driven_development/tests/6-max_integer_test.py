@@ -29,5 +29,14 @@ class TestMaxInteger(unittest.TestCase):
         """Test for a string"""
         self.assertEqual(max_integer("John Doe"), "o")
 
+    def test_maxinteger_floats(self):
+        """Test for floats"""
+        self.assertEqual(max_integer([1.2, 3.1, 2.5, 4.9]), 4.9)
+
+    def test_maxinteger_one(self):
+        """Tesf for one element"""
+        self.assertEqual(max_integer([7]), 7)
+
+
 if __name__ == '__main__':
     unittest.main()
