@@ -21,6 +21,10 @@ class TestMaxInteger(unittest.TestCase):
         """"Test for empty list"""
         self.assertEqual(max_integer([]), None)
 
+    def test_maxinteger_nan(self):
+        """Test for NaN values in the list"""
+        self.assertEqual(max_integer(["1", "2", "3", "4"]), "4")
+
 
 if __name__ == '__main__':
     unittest.main()
