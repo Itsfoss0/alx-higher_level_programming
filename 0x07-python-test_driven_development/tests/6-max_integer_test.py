@@ -54,7 +54,12 @@ class TestMaxInteger(unittest.TestCase):
         self.assertRaises(TypeError, max_integer, [[1, 2, 3], [1], 4])
 
     def test_maxinteger_zero(self):
+        """Test for a list with only one zero"""
         self.assertEqual(max_integer([0]), 0)
+
+    def test_maxinteger_all_zero(self):
+        """Test for a list with all elements zero"""
+        self.assertEqual(max_integer([0, 0, 0, 0]), 0)
 
 
 if __name__ == '__main__':
