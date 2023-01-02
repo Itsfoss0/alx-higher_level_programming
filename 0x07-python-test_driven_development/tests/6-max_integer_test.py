@@ -45,6 +45,15 @@ class TestMaxInteger(unittest.TestCase):
         """Test for negative numbers"""
         self.assertEqual(max_integer([-1, -3, -5, -7]), -1)
 
+    def test_maxinteger_same(self):
+        """Test for a list with the same elements"""
+        self.assertEqual(max_integer([5, 5, 5, 5]), 5)
 
+    def test_maxinteger_nested(self):
+        """Test for a nested list"""
+        self.assertRaises(TypeError, max_integer, [[1, 2, 3], [1], 4, [5, 6, 7], "John Doe"], "Jane Doe")
+
+    def test_maxinteger_zero(self):
+        self.assertEqual(max_integer([0]), 0)
 if __name__ == '__main__':
     unittest.main()
