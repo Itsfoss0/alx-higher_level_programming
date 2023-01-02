@@ -37,6 +37,12 @@ class TestMaxInteger(unittest.TestCase):
         """Tesf for one element"""
         self.assertEqual(max_integer([7]), 7)
 
+    def test_maxinteger_none(self):
+        """Test for none object"""
+        self.assertRaises(TypeError, max_integer, None)
 
+    def test_maxinteger_negatives(self):
+        """Test for negative numbers"""
+        self.assertEqual(max_integer([-1, -3, -5, -7]), -1)
 if __name__ == '__main__':
     unittest.main()
