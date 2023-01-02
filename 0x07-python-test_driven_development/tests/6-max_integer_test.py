@@ -44,5 +44,7 @@ class TestMaxInteger(unittest.TestCase):
     def test_maxinteger_negatives(self):
         """Test for negative numbers"""
         self.assertEqual(max_integer([-1, -3, -5, -7]), -1)
+
+
 if __name__ == '__main__':
     unittest.main()
