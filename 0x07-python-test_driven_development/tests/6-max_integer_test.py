@@ -51,9 +51,11 @@ class TestMaxInteger(unittest.TestCase):
 
     def test_maxinteger_nested(self):
         """Test for a nested list"""
-        self.assertRaises(TypeError, max_integer, [[1, 2, 3], [1], 4, [5, 6, 7], "John Doe"], "Jane Doe")
+        self.assertRaises(TypeError, max_integer, [[1, 2, 3], [1], 4])
 
     def test_maxinteger_zero(self):
         self.assertEqual(max_integer([0]), 0)
+
+
 if __name__ == '__main__':
     unittest.main()
