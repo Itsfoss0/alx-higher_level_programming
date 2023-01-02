@@ -25,6 +25,9 @@ class TestMaxInteger(unittest.TestCase):
         """Test for NaN values in the list"""
         self.assertEqual(max_integer(["1", "2", "3", "4"]), "4")
 
+    def test_maxinteger_string(self):
+        """Test for a string"""
+        self.assertEqual(max_integer("John Doe"), "o")
 
 if __name__ == '__main__':
     unittest.main()
