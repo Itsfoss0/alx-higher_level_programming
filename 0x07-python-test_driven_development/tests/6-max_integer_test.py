@@ -17,6 +17,9 @@ class TestMaxInteger(unittest.TestCase):
         """"Tests for a reverse sorted lists"""
         self.assertEqual(max_integer([4, 3, 2, 1]), 4)
 
+    def test_maxinteger_empty(self):
+        """"Test for empty list"""
+        self.assertEqual(max_integer([]), None)
 
 if __name__ == '__main__':
     unittest.main()
