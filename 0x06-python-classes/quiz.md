@@ -87,3 +87,24 @@ class User:
 * [X] A public class attribute
 * [ ] A public instance attribute
 * [ ] A public instance method
+
+
+#### Question #4
+In this following code, what is ```__password```?
+```python
+class User:
+    id = 89
+    name = "no name"
+    __password = None
+
+    def __init__(self, new_name=None):
+        self.is_new = True
+        if new_name is not None:
+            self.name = new_name
+```
+* [ ] A protected class attribute
+* [ ] A private instance attribute
+* [X] A private class attribute
+* [ ] A public instance attribute
+* [ ] A public class attribute
+* [ ] A protected instance attribute
