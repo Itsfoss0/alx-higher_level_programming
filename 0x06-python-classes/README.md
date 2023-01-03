@@ -1,6 +1,8 @@
 ![img](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
 > Object Oriented Programming 
 
+![OOP Meme](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/247/oop-meme.jpg)
+
 ## Intro 
 In this session, we will explore OOP in python. OOP is a totally new concept for all of you (especially those who think they know about it :)). It’s VERY important that you read at least all the material that is listed below. 
 
