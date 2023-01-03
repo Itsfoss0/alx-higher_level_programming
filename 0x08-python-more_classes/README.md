@@ -94,7 +94,7 @@ print(u.id)
 What is ```__doc__```
 * [ ] Creates man file
 * [X] The string documentation of an object (based on docstring)
-* Prints the documentation of an object
+* [ ] Prints the documentation of an object
 
 
 #### Question #3
@@ -112,5 +112,17 @@ print(u.id)
 * [ ] None
 * [ ] 1
 
+#### Question #4
+What do these lines print?
+```python
+class User:
+    id = 1
 
+u = User()
+print(u.id)
+```
+* [ ] 89
+* [ ] 98
+* [ ] None
+* [X] 1
 </details>
