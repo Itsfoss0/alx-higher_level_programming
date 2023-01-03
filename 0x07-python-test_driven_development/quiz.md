@@ -89,3 +89,15 @@ import sys
 ```
 * [ ] Yes
 * [X] No
+> ### Tips 
+> Docstrings must be bofore import statments
+
+### Question #6
+Is this a standardized way to comment a function in Python?
+```python
+def add(a, b):
+    """ Addition function """
+    return a + b
+```
+* [X] Yes
+* [ ] No
