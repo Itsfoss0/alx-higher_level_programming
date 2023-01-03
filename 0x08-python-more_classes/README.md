@@ -89,4 +89,10 @@ print(u.id)
 * [ ] None
 * [ ] 1
 * [ ] 98
+
+#### Question #2
+What is ```__doc__```
+* [ ] Creates man file
+* [X] The string documentation of an object (based on docstring)
+* Prints the documentation of an object
 </details>
