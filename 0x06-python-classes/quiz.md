@@ -149,4 +149,25 @@ What do these lines print?
 * [ ] User.id
 * [X] 89
 * [ ] Nothing
-* [ ] id 
+* [ ] id
+
+
+#### Question #7
+In this following code, what is ```is_new```?
+```python
+class User:
+    id = 89
+    name = "no name"
+    __password = None
+
+    def __init__(self, new_name=None):
+        self.is_new = True
+        if new_name is not None:
+            self.name = new_name
+```
+* [ ] A protected class attribute
+* [ ] A private instance attribute
+* [ ] A private instance attribute
+* [X] A public instance attribute
+* [ ] A public class attribute
+* [ ] A protected instance attribute 
