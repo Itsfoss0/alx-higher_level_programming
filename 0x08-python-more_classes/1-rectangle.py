@@ -5,6 +5,7 @@
 class Rectangle:
     """Rectangle class with setters and getters"""
     def __init__(self, width=0, height=0):
+        """Init method"""
         self.__width = width
         self.__height = height
 
@@ -43,7 +44,13 @@ class Rectangle:
 
     @height.setter
     def height(self, value):
+        """Height setter
+        Args:
+            value(int)
+        """
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
         elif value < 0:
             raise ValueError("height must be >= 0")
+        else:
+            self.__width = value
