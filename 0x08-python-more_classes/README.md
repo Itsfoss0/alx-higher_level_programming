@@ -139,4 +139,22 @@ What is ```__repr__```
 * [ ] Instance method that returns the dictionary representation of an instance
 * [ ] Instance method that prints an “official” string representation of an instance
 * [X] Instance method that returns an “official” string representation of an instance
+
+
+#### Question #7
+What do these lines print?
+```python
+class User:
+    id = 1
+
+u = User()
+u.id = 89
+User.id = 98
+print(User.id)
+
+```
+* [ ] 89
+* [ ] None
+* [ ] 1
+* [X] 98
 </details>
