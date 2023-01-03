@@ -73,4 +73,20 @@ print(User.id)
 * [ ] None
 * [X] 98
 * [ ] 1 
+
+#### Question #1
+What do these lines print?
+```python
+class User:
+    id = 1
+
+u = User()
+u.id = 89
+User.id = 98
+print(u.id)
+```
+* [X] 89
+* [ ] None
+* [ ] 1
+* [ ] 98
 </details>
