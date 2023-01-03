@@ -132,4 +132,11 @@ What is ```__str__```
 * [ ] Instance method that prints an “informal” and nicely printable string representation of an instance
 * [X] Instance method that returns an “informal” and nicely printable string representation of an instance
 * [ ] Instance method that returns the dictionary representation of an instance
+
+
+#### Question #6
+What is ```__repr__```
+* [ ] Instance method that returns the dictionary representation of an instance
+* [ ] Instance method that prints an “official” string representation of an instance
+* [X] Instance method that returns an “official” string representation of an instance
 </details>
