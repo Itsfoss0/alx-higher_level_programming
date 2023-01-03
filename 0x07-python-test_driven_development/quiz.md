@@ -74,3 +74,18 @@ def add(a, b):
 ```
 * [ ] Yes
 * [X] No
+
+### Question #5
+Is this module correctly commented?
+```python
+#!/usr/bin/python3
+import sys
+
+""" 
+    My calculation module
+"""
+...
+
+```
+* [ ] Yes
+* [X] No
