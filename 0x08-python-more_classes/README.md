@@ -228,4 +228,12 @@ print(u.id)
 * [ ] None
 * [ ] 1
 * [X] 98
+
+
+#### Question #13
+What is ```__del__```?
+* [X] Instance method called when an instance is deleted
+* [ ] Instance method that removes the last character of an instance
+* [ ] Instance method that prints the memory address of an instance
+
 </details>
