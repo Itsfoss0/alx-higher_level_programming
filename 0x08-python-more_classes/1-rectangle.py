@@ -5,9 +5,12 @@
 class Rectangle:
     """Rectangle class with setters and getters"""
     def __init__(self, width=0, height=0):
-        """Init method"""
-        self.__width = width
-        self.__height = height
+        """Init method
+        Args:
+            width(int)   -> The width of the rectangle
+            height(int)  -> The height of the rectangle"""
+        self.width = width
+        self.height = height
 
     @property
     def width(self):
