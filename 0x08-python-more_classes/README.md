@@ -25,3 +25,20 @@ By the end of this project, you should be able to [explain](https://fs.blog/feyn
 * [X] What is an attribute
 * [X] What are and how to use public, protected and private attributes
 * [X] What is ```self```
+* [X] What is a method
+* [X] What is the special ```__init__``` method and how to use it
+* [X] What is Data Abstraction, Data Encapsulation, and Information Hiding
+* [X] What is a property
+* [X] What is the difference between an attribute and a property in Python
+* [X] What is the Pythonic way to write getters and setters in Python
+* [X] What are the special ```__str__``` and ```__repr__``` methods and how to use them
+* [X] What is the difference between ```__str__``` and ```__repr__```
+* [X] What is a class attribute
+* [X] What is the difference between a object attribute and a class attribute
+* [X] What is a class method
+* [X] What is a static method
+* [X] How to dynamically create arbitrary new attributes for existing instances of a class
+* [X] How to bind attributes to object and classes
+* [X] What is and what does contain ```__dict__``` of a class and of an instance of a class
+* [X] How does Python find the attributes of an object or class
+* [X] How to use the ```getattr``` function
