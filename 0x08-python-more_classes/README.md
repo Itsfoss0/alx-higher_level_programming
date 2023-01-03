@@ -107,4 +107,10 @@ u = User()
 u.id = 89
 print(u.id)
 ```
+* [X] 89
+* [ ] 98
+* [ ] None
+* [ ] 1
+
+
 </details>
