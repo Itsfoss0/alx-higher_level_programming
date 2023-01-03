@@ -35,3 +35,15 @@ def uniq(list):
 * [X] empty list
 * [X] list with multiple types (integer, string, etc…)
 * [X] list with twice the same element (same type)
+
+
+### Question #2
+Is this a standardized way to comment a function in Python?
+```python
+"""" Addition function """
+def add(a, b):
+    return a + b
+
+```
+* [ ] Yes
+* [X] No
