@@ -184,7 +184,7 @@ print(u.id)
 * [ ] 1
 
 
-#### Question #9
+#### Question #10
 What do these lines print?
 ```python
 class User:
@@ -198,4 +198,20 @@ print(u.id)
 * [ ] None
 * [ ] 1
 * [X] 98
+
+
+#### Question #11
+What do these lines print?
+```python
+class User:
+    id = 1
+
+print(User.id)
+```
+* [ ] 89
+* [X] 1
+* [ ] 98
+* [ ] None
+
+
 </details>
