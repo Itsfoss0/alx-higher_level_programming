@@ -53,3 +53,24 @@ By the end of this project, you should be able to [explain](https://fs.blog/feyn
 - Your code should use the pycodestyle (version ```2.8.*```)
 - All your files must be executable
 - The length of your files will be tested using ```wc```
+
+<details>
+<summary>Show quiz</summary>
+
+####  Question #0 
+What do these lines print?
+```python
+class User:
+    id = 1
+
+User.id = 98
+u = User()
+u.id = 89
+print(User.id)
+
+```
+* [ ] 89
+* [ ] None
+* [X] 98
+* [ ] 1 
+</details>
