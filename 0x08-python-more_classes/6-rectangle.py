@@ -5,10 +5,7 @@
 class Rectangle:
     """Rectangle class with setters and getters"""
 
-    number_of_instances = 0
-
     def __init__(self, width=0, height=0):
-
         """Initialize a new Rectangle.
         Args:
             width (int): The width of the new rectangle.
@@ -16,7 +13,6 @@ class Rectangle:
         """
         self.width = width
         self.height = height
-        number_of_instances += 1
 
     @property
     def width(self):
