@@ -15,4 +15,9 @@
 >>> 
 >>> u = User()
 >>> u.is_new
+
 ```
+* [ ] False
+* [ ] is_new
+* [ ] Nothing 
+* [X] True
