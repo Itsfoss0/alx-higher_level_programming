@@ -125,4 +125,11 @@ print(u.id)
 * [ ] 98
 * [ ] None
 * [X] 1
+
+
+#### Question #5
+What is ```__str__```
+* [ ] Instance method that prints an “informal” and nicely printable string representation of an instance
+* [X] Instance method that returns an “informal” and nicely printable string representation of an instance
+* [ ] Instance method that returns the dictionary representation of an instance
 </details>
