@@ -47,3 +47,18 @@ def add(a, b):
 ```
 * [ ] Yes
 * [X] No
+
+
+### Question #3
+Is this a standardized way to comment a function in Python?
+
+```python 
+##########
+# Addition function
+##########
+def add(a, b):
+    return a + b
+
+```
+* [ ] Yes
+* [X] No
