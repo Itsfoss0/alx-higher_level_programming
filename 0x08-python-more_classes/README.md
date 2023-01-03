@@ -13,3 +13,15 @@ Read or watch the following
 4. [Class method vs static methods](https://www.youtube.com/watch?v=rq8cL2XMM5M)
 5. [Properties vs setters vs getters](https://python-course.eu/oop/properties-vs-getters-and-setters.php)
 6. [```__str__``` vs ```__repr__```](https://shipit.dev/posts/python-str-vs-repr.html)
+
+## Learning objectives
+By the end of this project, you should be able to [explain](https://fs.blog/feynman-learning-technique/) to anyone the following concepts without the help of Google
+
+* [X] What is OOP
+* [X] “first-class everything”
+* [X] What is a class
+* [X] What is an object and an instance
+* [X] What is the difference between a class and an object or instance
+* [X] What is an attribute
+* [X] What are and how to use public, protected and private attributes
+* [X] What is ```self```
