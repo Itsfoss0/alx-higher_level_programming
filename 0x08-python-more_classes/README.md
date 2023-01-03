@@ -157,4 +157,25 @@ print(User.id)
 * [ ] None
 * [ ] 1
 * [X] 98
+
+
+#### Question #8
+What is ```__init__```?
+* [X] The instance method called when a new object is created 
+* [ ] A class attribute
+* [ ] A class method
+* [ ] The instance method called when a class is called for the first time
+
+
+#### Question #9
+What do these lines print?
+```python
+class User:
+    id = 1
+
+User.id = 98
+u = User()
+u.id = 89
+print(u.id)
+```
 </details>
