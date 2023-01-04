@@ -28,3 +28,9 @@ OK, But what about this?
 ![meme](https://media.giphy.com/media/wAjfQ9MLUfFjq/giphy.gif)
 
 ## Resources
+1. [Objects and Values](http://www.openbookproject.net/thinkcs/python/english2e/ch09.html#objects-and-values)
+2. [Aliasing](http://www.openbookproject.net/thinkcs/python/english2e/ch09.html#aliasing)
+3. [Immutable vs mutable types](https://stackoverflow.com/questions/8056130/immutable-vs-mutable-types)
+4. [Mutation](http://composingprograms.com/pages/24-mutable-data.html#sequence-objects)
+5. [Cloning lists](http://www.openbookproject.net/thinkcs/python/english2e/ch09.html#cloning-lists)
+6. [Python tuples - Immutable but potentially changing](http://radar.oreilly.com/2014/10/python-tuples-immutable-but-potentially-changing.html)
