@@ -81,4 +81,14 @@ What do these lines print?
 * [X] [1, 2, 10, 4]
 * [ ] 1
 * [ ] b
-* [ ] a 
+* [ ] a
+
+#### Question #7
+What do these lines print?
+```
+>>> a = [1, 2, 3, 4]
+>>> a[1:3]
+```
+* [X] [2, 3]
+* [ ] [1, 2, 3]
+* [ ] [1, 2]
