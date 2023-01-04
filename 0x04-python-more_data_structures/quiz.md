@@ -125,3 +125,14 @@ What do these line print?
 * [ ] 1 2 3 4
 * [X] 1 2 3
 * [ ] 0 1 2 3
+
+#### Question #11
+What do these lines print?
+```
+>>> a = { 'id': 89, 'name': "John" }
+>>> a.get('age', 0)
+```
+* [X] 0 
+* [ ] 'age'
+* [ ] Nothing
+* [ ] 89
