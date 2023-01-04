@@ -92,3 +92,18 @@ What do these lines print?
 * [X] [2, 3]
 * [ ] [1, 2, 3]
 * [ ] [1, 2]
+
+#### Question #8
+What do these lines print?
+```
+>>> a = [1, 2, 3, 4]
+>>> b = a
+>>> a[2] = 10
+>>> a
+```
+* [ ] [1, 2, 3, 4]
+* [ ] [1]
+* [X] [1, 2, 10, 4]
+* [ ] b
+* [ ] a
+
