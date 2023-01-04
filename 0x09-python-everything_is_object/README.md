@@ -34,3 +34,9 @@ OK, But what about this?
 4. [Mutation](http://composingprograms.com/pages/24-mutable-data.html#sequence-objects)
 5. [Cloning lists](http://www.openbookproject.net/thinkcs/python/english2e/ch09.html#cloning-lists)
 6. [Python tuples - Immutable but potentially changing](http://radar.oreilly.com/2014/10/python-tuples-immutable-but-potentially-changing.html)
+
+## Learning objectives
+By the end of this project, you should be able to [explain](https://fs.blog/feynman-learning-technique/) to anyone the following concepts without the help of Google.
+
+* [X] What is an object
+* [X] What is the difference between a class and an object or instance
