@@ -16,3 +16,4 @@ This repository contains the code, concepts, resources and methodologies used to
 * [0x06 Classes](./0x06-python-classes/) - Object Oriented Programming
 * [0x07 TDD](./0x07-python-test_driven_development/) - Test Driven Developement
 * [0x08 More classes](./0x08-python-more_classes/) - More on Classes 
+* [0x08 Everything Object](./0x09-python-everything_is_object) - Everything object
