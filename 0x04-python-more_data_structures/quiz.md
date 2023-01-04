@@ -10,3 +10,17 @@ What do these lines print?
 * [X] Hello Holberton School 98
 * [ ] 0 1 2 3
 * [ ] 1 2 3 4 
+
+
+#### Question #1
+What do these lines print?
+```
+>>> a = { 'id': 89, 'name': "John", 'projects': [1, 2, 3, 4] }
+>>> a.get('projects')
+```
+* [ ] [1]
+* [ ] 'projects'
+* [X] 1 2 3 4 
+* [ ] Nothing
+* [ ] list
+ 
