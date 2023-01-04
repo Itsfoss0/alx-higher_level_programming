@@ -107,3 +107,13 @@ What do these lines print?
 * [ ] b
 * [ ] a
 
+#### Question #9
+What do these lines print?
+```
+>>> a = [1, 2, 3, 4]
+>>> len(a)
+```
+* [ ] 6
+* [ ] 2
+* [X] 4
+* [ ] 8
