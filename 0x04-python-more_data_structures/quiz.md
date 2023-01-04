@@ -80,3 +80,14 @@ What do these lines print?
 * [ ] 'id'
 * [ ] John
 * [X] 89
+
+#### Question #7
+What do these lines print?
+```
+>>> for i in [1, 3, 4, 2]:
+>>>     print(i, end=" ")
+```
+* [X] 1 2 3 4 
+* [ ] 0 1 2 3
+* [ ] 1 2 3 4
+* [ ] 1 2 4 3 0 
