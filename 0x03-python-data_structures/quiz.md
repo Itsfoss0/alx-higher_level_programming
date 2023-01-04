@@ -68,3 +68,17 @@ What do these lines print?
 * [ ] 2
 * [ ] [1, 2, 3, 4]
 * [ ] [1, 2]
+
+#### Question #6
+What do these lines print?
+```
+>>> a = [1, 2, 3, 4]
+>>> b = a
+>>> a[2] = 10
+>>> b
+```
+* [ ] [1, 2, 3, 4]
+* [X] [1, 2, 10, 4]
+* [ ] 1
+* [ ] b
+* [ ] a 
