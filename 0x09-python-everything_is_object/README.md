@@ -40,3 +40,14 @@ By the end of this project, you should be able to [explain](https://fs.blog/feyn
 
 * [X] What is an object
 * [X] What is the difference between a class and an object or instance
+* [X] What is the difference between immutable object and mutable object
+* [X] What is a reference
+* [X] What is an assignment
+* [X] What is an alias
+* [X] How to know if two variables are identical
+* [X] How to know if two variables are linked to the same object
+* [X] How to display the variable identifier (which is the memory address in the CPython implementation)
+* [X] What is mutable and immutable
+* [X] What are the built-in mutable types
+* [X] What are the built-in immutable types
+* [X] How does Python pass variables to functions
