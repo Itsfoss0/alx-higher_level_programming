@@ -114,3 +114,14 @@ What do these lines print?
 * [ ] [4]
 * [ ] [3]
 * [ ] 3
+
+
+#### Question #10
+What do these line print?
+```
+>>> for i in range(1, 4):
+>>>     print(i, end=" ")
+```
+* [ ] 1 2 3 4
+* [X] 1 2 3
+* [ ] 0 1 2 3
