@@ -22,3 +22,14 @@ What does this commandline print?
 * [ ] Python i
 * [ ] Python is
 * [X] is cool
+
+#### Question #2
+What does this commandline print?
+```
+>>> a = "Python is cool"
+>>> print(a[:6])
+```
+* [ ] Python is
+* [ ] Pytho
+* [X] Python
+* [ ] is cool 
