@@ -38,3 +38,14 @@ for i in range(4):
 * [ ] 1 2 3 4
 * [ ] 1 2 3 4
 * [ ] 0 1 2 3 4
+
+#### Question #3
+What do these lines print?
+```python
+if 12 == 48/4:
+    print("Holberton")
+else:
+    print("School")
+```
+* [X] Holberton
+* [ ] School 
