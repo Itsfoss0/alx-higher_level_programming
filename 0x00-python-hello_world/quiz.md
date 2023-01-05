@@ -43,3 +43,13 @@ What does this commandline print
 * [ ] Holberton
 * [ ] "Holberton school"
 * [ ] 'Holberton school'
+
+#### Question #4
+What does this commandline print?
+```
+>>> print(f"{98} Battery street")
+```
+* [ ] 9 Battery street
+* [X] 98 Battery street
+* [ ] f"98 Battery street"
+* [ ] 8 Battery street
