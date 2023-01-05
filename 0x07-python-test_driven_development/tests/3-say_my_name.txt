@@ -59,3 +59,6 @@ Test cases:
 
     >>> say_my_name(str(30), str(32))
     'My name is 30 32'
+
+    >>> say_my_name("", "Doup")
+    'My name is  Doup'
