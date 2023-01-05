@@ -70,3 +70,14 @@ What does this commandline print"
 * [ ] ol 
 * [ ] l
 * [ ] Nothing
+
+#### Question #6
+What does this commandline print?
+```
+>>> a = "Python is cool"
+>>> print(a[0:6])
+```
+* [ ] Python is
+* [X] Python 
+* [ ] Pytho
+* [ ] Python is cool
