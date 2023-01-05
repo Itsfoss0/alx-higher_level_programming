@@ -11,3 +11,14 @@ What does this commandline print?
 * [ ] P
 * [ ] n
 * [ ] h
+
+#### Question #1
+What does this commandline print?
+```
+>>> a = "Python is cool"
+>>> print(a[7:])
+```
+* [ ] cool
+* [ ] Python i
+* [ ] Python is
+* [X] is cool
