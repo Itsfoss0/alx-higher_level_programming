@@ -27,3 +27,14 @@ for i in range(2, 4):
 * [ ] 2 4
 * [X] 2 3 
 * [ ] 3 4 
+
+#### Question #2
+What do these lines print?
+```python
+for i in range(4):
+    print(i, end=" ")
+```
+* [X] 0 1 2 3 
+* [ ] 1 2 3 4
+* [ ] 1 2 3 4
+* [ ] 0 1 2 3 4
