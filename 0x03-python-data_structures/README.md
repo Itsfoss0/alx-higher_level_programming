@@ -39,4 +39,4 @@ At the end of this project, you should be able to [explain to anyone](https://fs
 [Quizes](./quiz.md)
 
 <div style='postion:relative'>
-<a href="../0x02-python-import_modules"><img src="https://www.svgrepo.com/show/94045/back.svg" alt="back" width="50px"></a>
+<a href="../0x02-python-import_modules"><img src="questions/282366/oop-tic-tac-toe-gamehttps://www.svgrepo.com/show/94045/back.svg" alt="back" width="50px"></a>
