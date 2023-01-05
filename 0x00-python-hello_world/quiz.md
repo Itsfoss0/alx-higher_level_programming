@@ -71,7 +71,7 @@ What does this commandline print"
 * [ ] l
 * [ ] Nothing
 
-#### Question #6
+#### Question #7
 What does this commandline print?
 ```
 >>> a = "Python is cool"
@@ -81,3 +81,15 @@ What does this commandline print?
 * [X] Python 
 * [ ] Pytho
 * [ ] Python is cool
+
+#### Question #8
+What does this commandline print?
+```
+>>> a = "Python is cool"
+>>> print(a[7:-5])
+```
+* [ ] Python
+* [ ] nohtyP
+* [ ] on
+* [X] is
+* [ ] si
