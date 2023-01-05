@@ -39,7 +39,7 @@ What does this commandline print
 ```
 >>> print("Holberton school")
 ```
-* [*] Holberton school
+* [ ] Holberton school
 * [ ] Holberton
 * [ ] "Holberton school"
 * [ ] 'Holberton school'
