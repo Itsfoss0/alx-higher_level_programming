@@ -53,3 +53,9 @@ What does this commandline print?
 * [X] 98 Battery street
 * [ ] f"98 Battery street"
 * [ ] 8 Battery street
+
+#### Question #5
+Who created Python?
+* [X] Guido van Rossum
+* [ ] Julien Babier
+* [ ] Yukihiro Matsumoto
