@@ -33,3 +33,13 @@ What does this commandline print?
 * [ ] Pytho
 * [X] Python
 * [ ] is cool 
+
+#### Question #3
+What does this commandline print
+```
+>>> print("Holberton school")
+```
+* [*] Holberton school
+* [ ] Holberton
+* [ ] "Holberton school"
+* [ ] 'Holberton school'
