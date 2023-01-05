@@ -93,3 +93,13 @@ What does this commandline print?
 * [ ] on
 * [X] is
 * [ ] si
+
+#### Question #9
+What does this commandline print?
+```
+>>> print(f"{98} Battery street, {'San Francisco'}")
+```
+* [X] 98 Battery street, San Francisco
+* [ ] “98 Battery street, San Francisco”
+* [ ] 8 Battery street, San
+* [ ] San Francisco Battery street, 98
