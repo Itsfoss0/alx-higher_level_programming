@@ -59,3 +59,14 @@ Who created Python?
 * [X] Guido van Rossum
 * [ ] Julien Babier
 * [ ] Yukihiro Matsumoto
+
+#### Question #6
+What does this commandline print"
+```
+>>> a = "Python is cool"
+>>> print(a[-2])
+```
+* [X] o
+* [ ] ol 
+* [ ] l
+* [ ] Nothing
