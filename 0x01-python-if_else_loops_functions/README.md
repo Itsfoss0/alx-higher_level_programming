@@ -39,5 +39,8 @@ By the end of the session, you should be able to [explain to anyone](https://fs.
 * Your code should use the pycodestyle (version 2.8.*)
 * All your files must be executable
 
+## Quizes
+[Quiz](./quiz.md)
+
 <a href="../0x00-python-hello_world"><img src="https://www.svgrepo.com/show/94045/back.svg" alt="back" width="50px"></a>
 
