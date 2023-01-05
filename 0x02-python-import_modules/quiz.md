@@ -26,3 +26,14 @@ What do these lines print?
 * [ ] In my function
 * [ ] Nothing
 
+#### Question #2
+What do these lines print?
+```
+>>> def my_function(counter):
+>>>     print("Counter: {}".format(counter))
+>>> 
+>>> my_function(12)
+```
+* [X] Counter: 12
+* [ ] Counter: counter
+* [ ] Counter: c
