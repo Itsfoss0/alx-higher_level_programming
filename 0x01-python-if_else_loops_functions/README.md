@@ -2,6 +2,8 @@
 
 > program control structures - if statements, loops and functions 
 
+![meme](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/233/code.png)
+
 ## Intro 
 In this module, we will explore control structures in python (branching and looping) and functions 
 
