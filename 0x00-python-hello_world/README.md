@@ -52,6 +52,7 @@ By the end of this session, you should be able to [explain to anyone](https://fs
 * Your code should use the pycodestyle (version 2.8.*)
 * All your files must be executable
 
-
+## Quizes
+[Quiz](./quiz.md)
 <p align="right"><a href="../0x01-python-if_else_loops_functions"><img src="https://www.svgrepo.com/show/326975/chevron-forward-circle-sharp.svg" alt="next" width="50px"></a></p>
 
