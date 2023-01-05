@@ -12,3 +12,17 @@ What do these lines print?
 * [ ] Counter: 101
 * [ ] Counter: 12
 * [X] Counter: 89
+
+#### Question #1
+What do these lines print?
+```
+>>> def my_function():
+>>>     print("In my function")
+>>> 
+>>> my_function
+```
+* [X] function my_function at …
+* [ ] “In my function”
+* [ ] In my function
+* [ ] Nothing
+
