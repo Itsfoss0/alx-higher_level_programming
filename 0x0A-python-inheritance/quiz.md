@@ -25,3 +25,29 @@ print(u.id)
 * [ ] 0
 * [ ] 1
 * [ ] 3
+
+#### Question #1
+What do these lines print?
+```python
+class Base():
+    """ My base class """
+
+    __nb_instances = 0
+
+    def __init__(self):
+        Base.__nb_instances += 1
+        self.id = Base.__nb_instances
+
+class User(Base):
+    """ My User class """
+
+    def __init__(self):
+        self.id = 89
+        super().__init__()
+
+u = User()
+print(u.id)
+```
+* [X] 1
+* [ ] 89
+* [ ] 90
