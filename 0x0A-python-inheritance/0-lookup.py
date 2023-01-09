@@ -7,4 +7,4 @@ def lookup(obj):
     Returns:
         list
     """
-    return [x for x in dir(obj)]
+    return dir(obj)
