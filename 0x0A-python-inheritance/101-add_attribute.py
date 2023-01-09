@@ -10,6 +10,6 @@ def add_attribute(objct, attribute, value):
         attribute(str) -> Name of the attribute to add to objct
         value(object) -> The value of the atttribute
     """
-    if attribute not in dir(objct):
+    if not hasattr(objct, attribute)
         raise TypeError("can't add new attribute")
     setattr(objct, attribute, value)
