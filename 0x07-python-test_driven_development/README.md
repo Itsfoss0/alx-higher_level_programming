@@ -13,6 +13,7 @@ Starting from today:
 
 - __Don’t trust the user__, always think about all possible edge cases
 
+
 ## Resources
 1. [doctest- Test interactive python examples](https://docs.python.org/3.4/library/doctest.html)
 2. [doctets - Testing through documentation](https://pymotw.com/3/doctest/)
