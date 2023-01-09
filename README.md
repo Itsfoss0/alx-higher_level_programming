@@ -17,4 +17,4 @@ This repository contains the code, concepts, resources and methodologies used to
 * [0x07 TDD](./0x07-python-test_driven_development/) - Test Driven Developement
 * [0x08 More classes](./0x08-python-more_classes/) - More on Classes 
 * [0x09 Everything Object](./0x09-python-everything_is_object) - Everything object
-* [0x1A Inheritance](./0x09-python-everything_is_object) - Inheritance
+* [0x1A Inheritance](./0x0A-python-inheritance) - Inheritance
