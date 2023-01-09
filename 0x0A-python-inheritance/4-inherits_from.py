@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 
-""" Module to assert if an object is an instance 
+""" Module to assert if an object is an instance
 of a class that inherited from the specifed classs
 """
 
