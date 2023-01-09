@@ -215,5 +215,35 @@ class User(Base):
 u = User()
 print(u.id)
 ```
+* [ ] 1
+* [X] 89
+* [ ] 90
+
+#### Question #9
+What do these lines print?
+```python
+class Base():
+    """ My base class """
+
+    __nb_instances = 0
+
+    def __init__(self):
+        Base.__nb_instances += 1
+        self.id = Base.__nb_instances
+
+class User(Base):
+    """ My User class """
+    pass
+
+for i in range(4):
+    u = User()
+print(u.id)
+```
+* [ ] 5
+* [X] 4
+* [ ] 3
+* [ ] None
+
+
 
 
