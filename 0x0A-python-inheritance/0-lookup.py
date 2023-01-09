@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+
+
+"""Look up function"""
+
+
 def lookup(obj):
     """Function to return all attributes and method of
     an object
