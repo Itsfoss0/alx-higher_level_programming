@@ -4,7 +4,7 @@
 
 
 def read_file(filename=""):
-    """Read filename's content
+    """Read <filename>'s content
     Args:
         filename(str) -> the name of the file
     Returns:
