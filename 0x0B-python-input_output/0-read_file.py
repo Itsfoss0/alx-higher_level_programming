@@ -16,4 +16,3 @@ def read_file(filename=""):
                 print(file.read())
         except Exception as e:
             return (e)
-    return
