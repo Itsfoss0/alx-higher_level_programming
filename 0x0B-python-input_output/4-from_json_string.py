@@ -1,6 +1,9 @@
 #!/usr/bin/python3
-import json
+
 """Function to unserialize a JSON string to python object"""
+
+
+import json
 
 
 def from_json_string(my_str):
