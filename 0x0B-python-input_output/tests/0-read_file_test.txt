@@ -1,0 +1,12 @@
+================
+How to use 0-read_file.py
+================
+
+
+>>> read_file = __import__('0-read_file').read_file
+
+>>> read_file()
+
+>>> read_file("tests/test-file00.txt")
+We offer a truly innovative approach to education:
+focus on building reliable applications and scalable systems, take on real-world challenges, collaborate with your peers. 
