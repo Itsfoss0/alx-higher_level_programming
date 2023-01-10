@@ -9,4 +9,4 @@ def class_to_json(obj):
         obj(object) -> Any object
     Returns:
         obj.__dict__."""
-    return dir(obj)
+    return obj.__dict__
