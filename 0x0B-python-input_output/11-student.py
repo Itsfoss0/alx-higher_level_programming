@@ -28,7 +28,6 @@ class Student:
         return self.__dict__
 
     def reload_from_json(self, json):
-        """Replace attributes of the object with <json>'s """
-        self.__dict__.clear()
+        """Replace attributes of the object with k-v pair in the json """
         for key, value in json.items():
-            self.key = value
+            setattr(self, key, value)
