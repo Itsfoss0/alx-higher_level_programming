@@ -1,0 +1,12 @@
+=======================
+How to use 9-student.py
+=======================
+
+
+>>> Student = __import__('9-student').Student
+
+>>> Student("John", "Doe", 23).to_json()
+{'first_name': 'John', 'last_name': 'Doe', 'age': 23}
+
+>>> Student("Ebenezer", "Akonya", 19).to_json()
+{'first_name': 'Ebenezer', 'last_name': 'Akonya', 'age': 19}
