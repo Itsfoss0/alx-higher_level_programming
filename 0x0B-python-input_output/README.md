@@ -17,6 +17,18 @@ __Read or watch__
 9. [Python](https://www.google.com/search?q=python+io)
 
 ## Learning objectives
-By the end of this session, you should be able to [explain to anyone]() __without the help of google__ the following concepts
+By the end of this session, you should be able to [explain to anyone](https://fs.blog/feynman-learning-technique/) __without the help of google__ the following concepts
 
-* 
+* [X] Why Python programming is awesome
+* [X] How to open a file
+* [X] How to write text in a file
+* [X] How to read the full content of a file
+* [X] How to read a file line by line
+* [X] How to move the cursor in a file
+* [X] How to make sure a file is closed after using it
+* [X] What is and how to use the with statement
+* [X] What is JSON
+* [X] What is serialization
+* [X] What is deserialization
+* [X] How to convert a Python data structure to a JSON string
+* [X] How to convert a JSON string to a Python data structure
