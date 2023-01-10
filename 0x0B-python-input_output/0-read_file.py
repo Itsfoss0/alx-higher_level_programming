@@ -11,8 +11,5 @@ def read_file(filename=""):
         None
     """
     if filename:
-        try:
-            with open(filename, "w", encoding="UTF-8") as file:
-                print(file.read())
-        except Exception as e:
-            return (e)
+        with open(filename, encoding="utf-8") as f:
+            print(f.read(), end="")
