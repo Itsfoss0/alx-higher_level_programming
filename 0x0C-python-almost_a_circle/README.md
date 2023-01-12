@@ -30,3 +30,6 @@ You will also learn about
 2. [JSON ecoder and decoder](https://docs.python.org/3/library/json.html)
 3. [unittest module](https://docs.python.org/3.4/library/unittest.html#module-unittest)
 4. [Python tests cheatsheet](https://www.pythonsheets.com/notes/python-tests.html)
+
+## Learning objectives
+By the end of this project you should be able to [explain to anyone](https://fs.blog/feynman-learning-technique/) the following concepts __Without the help fo Google__ 
