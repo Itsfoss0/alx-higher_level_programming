@@ -1,0 +1,25 @@
+======================
+base.py module test suites
+=====================
+
+>>> from models.base import Base 
+
+>>> b1 = Base()
+
+>>> b1.id
+1
+
+>>> b2 = Base()
+
+>>> b2.id
+2
+
+>>> b3 = Base()
+
+>>> b3.id
+3
+
+>>> b5 = Base(id=5)
+
+>>> b5.id
+5
