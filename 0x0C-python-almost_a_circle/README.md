@@ -33,3 +33,11 @@ You will also learn about
 
 ## Learning objectives
 By the end of this project you should be able to [explain to anyone](https://fs.blog/feynman-learning-technique/) the following concepts __Without the help fo Google__ 
+
+
+* [X] What is Unit testing and how to implement it in a large project
+* [X] How to serialize and deserialize a Class
+* [X] How to write and read a JSON file
+* [X] What is ```*args``` and how to use it
+* [X] What is ```**kwargs``` and how to use it
+* [X] How to handle named arguments in a function
