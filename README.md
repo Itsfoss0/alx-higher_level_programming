@@ -19,3 +19,4 @@ This repository contains the code, concepts, resources and methodologies used to
 * [0x09 Everything Object](./0x09-python-everything_is_object) - Everything object
 * [0x1A Inheritance](./0x0A-python-inheritance) - Inheritance
 * [0X1B Handling files](./0x0B-python-input_output) - File I/O
+* [0x1C Almost circle](./0x0C-python-almost_a_circle) - Almost a Circle
