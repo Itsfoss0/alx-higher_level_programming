@@ -23,4 +23,6 @@ You will also learn about
 * Serialization/Deserialization
 * JSON
 
-![Meme](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/331/giphy.mp4)
+![Meme](https://media2.giphy.com/media/unQ3IJU2RG7DO/200w.webp?cid=ecf05e47vwvnanfaua5wktd4b2fknxalp7wtxh6peo7mok14&rid=200w.webp&ct=g)
+
+## Resources
