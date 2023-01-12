@@ -26,3 +26,7 @@ You will also learn about
 ![Meme](https://media2.giphy.com/media/unQ3IJU2RG7DO/200w.webp?cid=ecf05e47vwvnanfaua5wktd4b2fknxalp7wtxh6peo7mok14&rid=200w.webp&ct=g)
 
 ## Resources
+1. [*args and **kwargs](https://yasoob.me/2013/08/04/args-and-kwargs-in-python-explained/)
+2. [JSON ecoder and decoder](https://docs.python.org/3/library/json.html)
+3. [unittest module](https://docs.python.org/3.4/library/unittest.html#module-unittest)
+4. [Python tests cheatsheet](https://www.pythonsheets.com/notes/python-tests.html)
