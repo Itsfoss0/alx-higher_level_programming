@@ -43,6 +43,9 @@ class Rectangle(Base):
         """Width setter
         Args:
             w(int) -> Width of the rectangle
+        Raises:
+            TypeError -> if w is not an interger
+            valuError -> if w <= 0
         """
         if not isinstance(w, int):
             raise TypeError("width must be an integer")
@@ -61,6 +64,9 @@ class Rectangle(Base):
         """Height setter
         Args:
             h(int) -> Height of the rectangle
+        Raises:
+            TypeError -> if h is not an integer
+            ValueError -> if h is <= 0
         """
         if not isinstance(h, int):
             raise TypeError("height must be an integer")
@@ -79,6 +85,9 @@ class Rectangle(Base):
         """x setter
         Args:
             x(int) -> value of x
+        Raises:
+            TypeError -> if x is not an int
+            ValueError -> if x < 0
         """
         if not isinstance(x, int):
             raise TypeError("x must be an integer")
@@ -97,6 +106,9 @@ class Rectangle(Base):
         """y setter
         Args:
             y(int) -> value of y
+        Raises:
+            TypeError -> if y is not an integer
+            ValueError -> if y < 0
         """
         if not isinstance(y, int):
             raise TypeError("y must be an integer")
