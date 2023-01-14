@@ -123,3 +123,12 @@ class Rectangle(Base):
             width * height
         """
         return self.__height * self.__width
+
+    def display(self):
+        """ Print a rectangle using '#'"""
+        rect = self.__y * "\n"
+        for i in range(self.__height):
+            rect += (" " * self.__x)
+            rect += (" " * self.__width) + "\n"
+
+    def __str__(self):
