@@ -136,7 +136,7 @@ class Rectangle(Base):
         return ("[Rectangle] {} {}/{} - {}/{}".format(self.__id,
                 self.__x, self.__y, self.__width, self.__height))
 
-    def update(self, *args):
+    def update(self, *args, **kwargs):
         """Update an instance using non-keyworded args
         Args:
             *args(list) -> A list of un-keyworded args.
