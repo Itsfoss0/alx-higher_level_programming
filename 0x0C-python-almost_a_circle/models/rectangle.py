@@ -139,7 +139,7 @@ class Rectangle(Base):
     def update(self, *args):
         """Update an instance using non-keyworded args
         Args:
-            *args(list) -> A list of un-keyworded args. 
+            *args(list) -> A list of un-keyworded args.
                         -> Order is super important
         """
         if args is not None and len(args) is not 0:
@@ -149,4 +149,3 @@ class Rectangle(Base):
         else:
             for key, value in kwargs.items():
                 setattr(self, key, value)
-            
