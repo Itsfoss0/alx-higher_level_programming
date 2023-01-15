@@ -132,7 +132,7 @@ class Rectangle(Base):
             rect += (" " * self.__width) + "\n"
 
     def __str__(self):
-        """str() representation of an instance""""
+        """str() representation of an instance"""
         return ("[Rectangle] {} {}/{} - {}/{}".format(self.__id,
                 self.__x, self.__y, self.__width, self.__height))
 
