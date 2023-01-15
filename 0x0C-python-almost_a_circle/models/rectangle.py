@@ -135,3 +135,18 @@ class Rectangle(Base):
         """str() representation of an instance""""
         return ("[Rectangle] {} {}/{} - {}/{}".format(self.__id,
                 self.__x, self.__y, self.__width, self.__height))
+
+    def update(self, *args):
+        """Update an instance using non-keyworded args
+        Args:
+            *args(list) -> A list of un-keyworded args. 
+                        -> Order is super important
+        """
+        if args is not None and len(args) is not 0:
+            attributes = ['__id', '__width', '__height', '__x', '__y']
+            for i in range(len(args)):
+                setattr(self, attributes[i], args[i])
+        else:
+            for key, value in kwargs.items():
+                setattr(self, key, value)
+            
