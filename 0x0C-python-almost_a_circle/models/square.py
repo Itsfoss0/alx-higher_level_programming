@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+import json
 from models.rectangle import Rectangle
 """Square class based on Rectangle"""
 
@@ -32,7 +33,7 @@ class Square(Rectangle):
         self.height = val
 
     def update(self, *args, **kwargs):
-        """Update an instance attributes"""
+        """Update an instance's attributes"""
         if args is not None and len(args) is not 0:
             attributes = ['__id', '__width', '__height', '__x', '__y']
             for i in range(len(args)):
@@ -40,3 +41,7 @@ class Square(Rectangle):
         else:
             for key, value in kwargs.items():
                 setattr(self, key, value)
+
+    def to_dictionary(self):
+        """Serialize an object of Square class"""
+        return json.dumps(self)
