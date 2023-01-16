@@ -30,4 +30,3 @@ class Square(Rectangle):
         """Setter for size"""
         self.width = val
         self.height = val
-    
