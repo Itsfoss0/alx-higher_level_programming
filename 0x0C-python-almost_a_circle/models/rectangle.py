@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+import json
 from models.base import Base
 
 """Rectangle class based on the Base class"""
@@ -149,3 +150,7 @@ class Rectangle(Base):
         else:
             for key, value in kwargs.items():
                 setattr(self, key, value)
+
+    def to_dictionary(self):
+        """Object to dictionary"""
+        return (json.dumps(self))
