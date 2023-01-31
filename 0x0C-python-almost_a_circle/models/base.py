@@ -134,3 +134,27 @@ class Base:
             list_ins.append(cls.create(**matrix[index]))
 
         return list_ins
+
+
+class NewClass(Base):
+    """Base inherite class"""
+    __id
+    def __init__(self, id):
+        if id:
+            self.id = id
+        else:
+            self.id = __class__.__id
+    
+    @property
+    def id(self):
+        """Id Getter"""
+        return self.__id
+
+    @id.setter
+    def id(self, i_d):
+        """Update ID for an object"""
+        if isinstance(i_d, int):
+            self.id = i_d
+        else:
+            raise TypeError("id has to be an int")
+    
