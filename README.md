@@ -20,3 +20,4 @@ This repository contains the code, concepts, resources and methodologies used to
 * [0x1A](./0x0A-python-inheritance) -> Inheritance
 * [0X1B](./0x0B-python-input_output) -> File I/O
 * [0x1C](./0x0C-python-almost_a_circle) -> Integrated Mini-project
+* [0x0D](./0x0D-SQL_introduction) -> Introduction to SQL
