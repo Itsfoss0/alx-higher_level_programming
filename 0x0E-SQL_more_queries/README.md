@@ -40,3 +40,27 @@ While SQL is a powerful language for managing data, it also has many intermediat
  * [X] How to retrieve datas from multiple tables in one request
  * [X] What are subqueries
  * [X] What are JOIN and UNION
+
+ ## How to import a SQL dump
+ ```
+ $ echo "CREATE DATABASE hbtn_0d_tvshows;" | mysql -uroot -p
+Enter password: 
+$ curl "https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/hbtn_0d_tvshows.sql" -s | mysql -uroot -p hbtn_0d_tvshows
+Enter password: 
+$ echo "SELECT * FROM tv_genres" | mysql -uroot -p hbtn_0d_tvshows
+Enter password: 
+id  name
+1   Drama
+2   Mystery
+3   Adventure
+4   Fantasy
+5   Comedy
+6   Crime
+7   Suspense
+8   Thriller
+$
+```
+![sql-joins-cheat-sheet](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/3/bc2575fee3303b731031.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230215T210514Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=167c77a155d04a897b8d9c9e44741ba2ca2047fde7d1e7328c67d97d1868d527)
+
+## Quizes
+[Quizes](./quiz.md)
