@@ -60,7 +60,7 @@ id  name
 8   Thriller
 $
 ```
-![sql-joins-cheat-sheet](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/3/bc2575fee3303b731031.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230215T210514Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=167c77a155d04a897b8d9c9e44741ba2ca2047fde7d1e7328c67d97d1868d527)
+![sql-joins-cheat-sheet](./sql-cheat-sheet.png)
 
 ## Quizes
 [Quizes](./quiz.md)
