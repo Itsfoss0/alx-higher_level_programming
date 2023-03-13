@@ -2,7 +2,7 @@
 
 let numberOfTimes = parseInt(process.argv[2]);
 if (!isNaN(numberOfTimes)) {
-  while (numberOfTimes) {
+  while (numberOfTimes > 0) {
     console.log('C is fun');
     numberOfTimes -= 1;
   }
