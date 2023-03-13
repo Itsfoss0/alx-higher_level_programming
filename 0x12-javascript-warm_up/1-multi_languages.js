@@ -2,7 +2,7 @@
 
 const cString = 'C is fun';
 const pyString = 'Python is cool';
-const jsString = 'Javascript is amazing';
+const jsString = 'JavaScript is amazing';
 
 console.log(cString);
 console.log(pyString);
