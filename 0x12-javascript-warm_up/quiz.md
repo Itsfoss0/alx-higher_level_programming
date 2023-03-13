@@ -17,7 +17,7 @@ Does Javascript have ```Array``` as a native datatype?
 #### Question #2
 Does Javascript have ```Set``` as a native datatype?
 * [ ] Yes
-* [ ] 
+* [ ] No
 
 #### Question #3
 Does Javascript have ```String``` as a native datatype?
