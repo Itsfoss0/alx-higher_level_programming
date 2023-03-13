@@ -22,3 +22,4 @@ This repository contains the code, concepts, resources and methodologies used to
 * [0x1C](./0x0C-python-almost_a_circle) -> Integrated Mini-project
 * [0x0D](./0x0D-SQL_introduction) -> Introduction to SQL
 * [0x0E](./0x0E-SQL_more_queries) -> Intermediate SQL concepts
+* [0x12](./0x12-javascript-warm_up) -> Introduction to javascript
