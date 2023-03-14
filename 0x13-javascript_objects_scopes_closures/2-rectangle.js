@@ -2,7 +2,7 @@
 
 module.exports = class Rectangle {
   constructor (w, h) {
-    if (!(w < 1) && !(h < 1)) {
+    if ((w > 0) && (h > 0)) {
       [this.width, this.height] = [w, h];
     }
   }
