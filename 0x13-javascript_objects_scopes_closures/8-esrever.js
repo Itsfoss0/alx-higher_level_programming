@@ -13,5 +13,5 @@ exports.esrever = function (list) {
   for (let i = listLen; i >= 0; i--) {
     newList.push(list[i]);
   }
-  return (newList);
+  return (newList.slice(1, newList.length));
 };
