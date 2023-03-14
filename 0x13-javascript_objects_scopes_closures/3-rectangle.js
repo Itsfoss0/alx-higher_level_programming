@@ -9,9 +9,9 @@ module.exports = class Rectangle {
 
   print () {
     let sizeY = this.height;
-    while (sizeY > 0){
-        console.log('X'.repeat(this.width));
-        sizeY -= 1;
+    while (sizeY > 0) {
+      console.log('X'.repeat(this.width));
+      sizeY -= 1;
     }
   }
 };
