@@ -8,8 +8,8 @@ module.exports = class Square extends ParentSquare {
 
   charPrint (c) {
     if (c !== undefined) {
-      for (let i = 0; i < this.size; i++) {
-        console.log(String(c).repeat(this.size));
+      for (let i = 0; i < this.width; i++) {
+        console.log(String(c).repeat(this.width));
       }
     } else {
       this.print();
