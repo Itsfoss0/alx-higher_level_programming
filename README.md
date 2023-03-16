@@ -22,5 +22,6 @@ This repository contains the code, concepts, resources and methodologies used to
 * [0x1C](./0x0C-python-almost_a_circle) -> Integrated Mini-project
 * [0x0D](./0x0D-SQL_introduction) -> Introduction to SQL
 * [0x0E](./0x0E-SQL_more_queries) -> Intermediate SQL concepts
+* [0x0F](./0x0F-python-object_relational_mapping) -> Object Relational Mapper
 * [0x12](./0x12-javascript-warm_up) -> Introduction to javascript
 * [0x13](./0x13-javascript_objects_scopes_closures) -> JavaScript scopes, objects and closures
