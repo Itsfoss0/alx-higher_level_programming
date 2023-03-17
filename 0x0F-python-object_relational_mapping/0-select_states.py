@@ -9,12 +9,11 @@ import MySQLdb as db
 
 [USERNAME, PASSWORD, DB_NAME] = sys.argv[1:4]
 
-
 def connect_and_query() -> None:
 
     """Connect to the database and execute query"""
     try:
-        cnx = db.connect(user=USERNAME, passwd=PASSWORD, port=3306, db=DB_NAME)
+        cnx = db.connect(user=USERNAME, passwd=PASSWORD, db=DB_NAME)
         cursor = cnx.cursor(cursorclass=db.cursors.Cursor)
         cursor.execute('SELECT * FROM states ORDER BY `id` ASC;')
         states = cursor.fetchall()
@@ -23,6 +22,9 @@ def connect_and_query() -> None:
             print(state)
     except Exception as e:
         return (e)
+    finally:
+        cnx.close()
+        cursor.close()
 
 
 if __name__ == "__main__":
