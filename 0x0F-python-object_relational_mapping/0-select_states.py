@@ -23,9 +23,6 @@ def connect_and_query() -> None:
             print(state)
     except Exception as e:
         return (e)
-    finally:
-        cnx.close()
-        cursor.close()
 
 
 if __name__ == "__main__":
