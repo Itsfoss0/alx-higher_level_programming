@@ -10,9 +10,7 @@ import MySQLdb as db
 [USERNAME, PASSWORD, DB_NAME] = sys.argv[1:4]
 
 
-def connect_and_query() -> None:
-
-    """Connect to the database and execute query"""
+if __name__ == "__main__":
     try:
         cnx = db.connect(user=USERNAME, passwd=PASSWORD, db=DB_NAME)
         cursor = cnx.cursor(cursorclass=db.cursors.Cursor)
@@ -22,11 +20,7 @@ def connect_and_query() -> None:
         for state in states:
             print(state)
     except Exception as e:
-        return (e)
+        print(e)
     finally:
         cnx.close()
         cursor.close()
-
-
-if __name__ == "__main__":
-    connect_and_query()
