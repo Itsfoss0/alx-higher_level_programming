@@ -21,7 +21,8 @@ def connect_and_query() -> None:
         states = cursor.fetchall()
 
         for state in states:
-            print(state)
+            if state[1] == sys.argv[4]:
+                print(state)
     except Exception as e:
         return (e)
 
