@@ -12,17 +12,16 @@ import MySQLdb as db
 
 def connect_and_query() -> None:
 
-    """Connect to the database and execute query
-    filter only states that start with `N` 
-    """
+    """Connect to the database and execute query"""
     try:
         cnx = db.connect(user=sys.argv[1], passwd=sys.argv[2], db=sys.argv[3])
         cursor = cnx.cursor(cursorclass=db.cursors.Cursor)
-        cursor.execute("SELECT * FROM states WHERE name IN ('Nevada', 'New York')  ORDER BY `id` ASC;")
+        cursor.execute('SELECT * FROM states ORDER BY `id` ASC;')
         states = cursor.fetchall()
 
         for state in states:
-            print(state)
+            if state[1][0] == "N":
+                print(state)
     except Exception as e:
         return (e)
 
