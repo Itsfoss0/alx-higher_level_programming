@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 
 """
-script to connect to MySQL server running on localhost
-on port 3306
+Lists all states from the states table of database hbtn_0e_0_usa.
+Usage: ./0-select_states.py <username> \
+                            <password> \
+                             <database-name>
 """
 import sys
 import MySQLdb as db
