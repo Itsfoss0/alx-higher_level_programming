@@ -9,6 +9,7 @@ import MySQLdb as db
 
 [USERNAME, PASSWORD, DB_NAME] = sys.argv[1:4]
 
+
 def connect_and_query() -> None:
 
     """Connect to the database and execute query"""
