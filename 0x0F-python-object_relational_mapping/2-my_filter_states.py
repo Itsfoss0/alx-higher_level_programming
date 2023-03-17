@@ -16,8 +16,8 @@ def connect_and_query() -> None:
     try:
         cnx = db.connect(user=sys.argv[1], passwd=sys.argv[2], db=sys.argv[3])
         cursor = cnx.cursor(cursorclass=db.cursors.Cursor)
-        cursor.execute('SELECT * FROM states WHERE name = {:s} ORDER BY\
-                      `id` ASC;'.format(sys.argv[4]))
+        cursor.execute("SELECT * FROM states WHERE name = '{}' ORDER BY \
+                        id ASC;".format(sys.argv[4]))
         states = cursor.fetchall()
 
         for state in states:
