@@ -16,16 +16,17 @@ def connect_and_query() -> None:
     try:
         cnx = db.connect(user=sys.argv[1], passwd=sys.argv[2], db=sys.argv[3])
         cursor = cnx.cursor(cursorclass=db.cursors.Cursor)
-        cursor.execute('SELECT city.id, city.name, state.name\
+        cursor.execute('SELECT city.name, state.name\
                         FROM cities as city\
                         INNER JOIN states as state\
                         ON city.state_id = state.id\
                         ORDER BY city.id ASC;')
         cities = cursor.fetchall()
-
+        cities_list = []
         for city in cities:
-            if city[2] == sys.argv[4]:
-                print(city)
+            if city[1] == sys.argv[4]:
+                cities_list.append(city[0])
+        print(", ".join(list(set(cities_list))))
 
         cursor.close()
         cnx.close()
