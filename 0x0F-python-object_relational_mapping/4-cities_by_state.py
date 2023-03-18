@@ -21,10 +21,10 @@ def connect_and_query() -> None:
                         INNER JOIN states as state\
                         ON city.state_id = state.id\
                         ORDER BY city.id ASC;')
-        states = cursor.fetchall()
+        cities = cursor.fetchall()
 
-        for state in states:
-            print(state)
+        for city in cities:
+            print(city)
 
         cursor.close()
         cnx.close()
