@@ -2,9 +2,8 @@
 
 """
 Lists all cities from the cities table of database hbtn_0e_0_usa.
-Usage: ./0-select_states.py <username> \
-                            <password> \
-                             <database-name>
+Usage: ./5-filter_cities.py <username> <password> <database-name>
+<state>
 """
 import sys
 import MySQLdb as db
