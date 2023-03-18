@@ -19,8 +19,8 @@ def connect_and_query() -> None:
         cursor.execute('SELECT city.id, city.name, state.name\
                         FROM cities as city\
                         INNER JOIN states as state\
-                        ON city.state_id = %s\
-                        ORDER BY city.id ASC;', sys.argv[4].id)
+                        ON city.state_id = state.id\
+                        ORDER BY city.id ASC;')
         cities = cursor.fetchall()
 
         for city in cities:
