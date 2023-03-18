@@ -24,7 +24,8 @@ def connect_and_query() -> None:
         cities = cursor.fetchall()
 
         for city in cities:
-            print(city)
+            if city[2] == sys.argv[4]:
+                print(city)
 
         cursor.close()
         cnx.close()
