@@ -26,7 +26,7 @@ def connect_and_query() -> None:
         for city in cities:
             if city[1] == sys.argv[4]:
                 cities_list.append(city[0])
-        print(", ".join(list(set(cities_list))))
+        print(", ".join(list(dict.fromkeys((cities_list)))))
 
         cursor.close()
         cnx.close()
