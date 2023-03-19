@@ -23,7 +23,7 @@ def connect_and_query(user: str, passwd: str, dbase: str) -> None:
         state = state_session.query(State).filter_by(id=2).first()
         state.name = "New Mexico"
         state_session.commit()
-        
+
     except Exception as e:
         return e
 
