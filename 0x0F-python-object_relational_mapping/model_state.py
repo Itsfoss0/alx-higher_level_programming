@@ -5,7 +5,7 @@ Defines the state model, containing the State class and
 from sqlalchemy import create_engine, Integer, Column, String
 from sqlalchemy.orm import declarative_base
 
-engine = create_engine('mysql+mysqldb://root:root@localhost/states', echo=True)
+engine = create_engine('mysql+mysqldb://root:root@localhost/hbtn_0e_6_usa')
 Base = declarative_base()
 
 
