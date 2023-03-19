@@ -1,7 +1,7 @@
 #!/usr/bin/python
 """
 City Model definition. Defines the city class
-Inheriting from the Base model which is defined 
+Inheriting from the Base model which is defined
 in the model_state model
 """
 
