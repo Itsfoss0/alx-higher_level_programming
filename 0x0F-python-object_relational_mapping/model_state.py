@@ -22,4 +22,4 @@ class State(Base):
     name = Column(String(128), nullable=False)
 
     def __repr__(self):
-        return "[State]: {} of id {}".format(self.name, self.id)
+        return "{}: {}".format(self.id, self.name)
