@@ -23,7 +23,7 @@ def connect_and_query(user: str, passwd: str, dbase: str) -> None:
         states = state_session.query(State).order_by(State.id).all()
 
         for state in states:
-            print(state)
+            print("{}: {}".format(state.id, state.name))
     except Exception as e:
         return e
 
