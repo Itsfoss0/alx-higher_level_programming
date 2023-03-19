@@ -20,10 +20,10 @@ def connect_and_query(user: str, passwd: str, dbase: str) -> None:
                                .format(user, passwd, dbase))
         Session = sessionmaker(bind=engine)
         state_session = Session()
-        states = state_session.query(State).order_by(State.id).all()
+        states = state_session.query(State).order_by(State.id).first()
 
-        if len(states) != 0:
-            print(states[0])
+        if states is not None:
+            print(states)
         else:
             print("Nothing")
     except Exception as e:
