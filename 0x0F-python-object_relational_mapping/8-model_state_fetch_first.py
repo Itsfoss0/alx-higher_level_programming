@@ -24,6 +24,8 @@ def connect_and_query(user: str, passwd: str, dbase: str) -> None:
 
         if len(states) != 0:
             print(states[0])
+        else:
+            print("Nothing")
     except Exception as e:
         return e
 
