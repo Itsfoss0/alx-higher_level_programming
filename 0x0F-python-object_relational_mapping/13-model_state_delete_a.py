@@ -22,7 +22,7 @@ def connect_and_query(user: str, passwd: str, dbase: str) -> None:
         session = Session()
         states = session.query(State).filter(State.name.like('%a%')).all()
         [session.delete(state) for state in states]
-        state_session.commit()
+        session.commit()
 
     except Exception as e:
         return e
