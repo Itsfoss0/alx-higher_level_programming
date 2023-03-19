@@ -20,7 +20,6 @@ def connect_and_query(user: str, passwd: str, dbase: str) -> None:
                                .format(user, passwd, dbase))
         Session = sessionmaker(bind=engine)
         state_session = Session()
-        states = state_session.query(State).order_by(State.id).all()
 
         lousiana = State(name="Louisiana")
         state_session.add(lousiana)
