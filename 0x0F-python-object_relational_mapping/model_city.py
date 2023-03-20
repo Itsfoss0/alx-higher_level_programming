@@ -23,7 +23,7 @@ class State(Base):
                 nullable=False, unique=True,
                 autoincrement=True)
     name = Column(String(128), nullable=False)
-    state_id = Column(String(128), ForeignKey('state.id'), nullable=False)
+    state_id = Column(String(128), ForeignKey('states.id'), nullable=False)
 
     def __repr__(self):
         return "{}: {}".format(self.id, self.name)
