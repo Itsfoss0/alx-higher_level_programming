@@ -16,7 +16,7 @@ def connect_and_query(user: str, passwd: str, dbase: str) -> None:
     Args:
         user (str): mysql user
         passwd (str): mysql password for `user`
-        dbase (str): database to connect to 
+        dbase (str): database to connect to
     """
     try:
         engine = create_engine('mysql+mysqldb://{}:{}/{}'
