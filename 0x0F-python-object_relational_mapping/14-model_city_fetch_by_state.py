@@ -19,13 +19,14 @@ def connect_and_query(user: str, passwd: str, dbase: str) -> None:
         dbase (str): database to connect to
     """
     try:
-        engine = create_engine('mysql+mysqldb://{}:{}/{}'
-                               .format(user, passwd, dbase))
-        Session = sessionmaker(bind=engine)
+        engine = create_engine("mysql+mysqldb://{}:{}@localhost/{}".format(
+                               user, passwd, dbase, pool_pre_ping=True))
+        session_maker = sessionmaker(bind=engine)
+        session = session_maker()
 
-        _session = Session()
-        for city, state in _session.query(City, State).filter(
-                    City.state_id == State.id).order_by(City.id):
+        for city, state in session.query(City, State)\
+            .filter(City.state_id == State.id)\
+                .order_by(City.id):
             print("{}: ({}) {}".format(state.name, city.id, city.name))
     except Exception as e:
         return e
