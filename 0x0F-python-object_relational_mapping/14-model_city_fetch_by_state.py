@@ -11,6 +11,13 @@ from model_state import Base, State
 
 
 def connect_and_query(user: str, passwd: str, dbase: str) -> None:
+    """
+    Function to connect to a database and perform queries
+    Args:
+        user (str): mysql user
+        passwd (str): mysql password for `user`
+        dbase (str): database to connect to 
+    """
     try:
         engine = create_engine('mysql+mysqldb://{}:{}/{}'
                                .format(user, passwd, dbase))
