@@ -1,3 +1,3 @@
 #!/bin/bash
 #send a bash script to a URL and display the body of the response
-curl -sfL -X GET "$1";
+curl -sL --fail -X GET "$1";
