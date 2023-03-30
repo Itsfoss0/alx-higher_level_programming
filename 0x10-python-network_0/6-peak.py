@@ -9,7 +9,7 @@ def find_peak(list_of_integers):
     """
     find the peak in a list of intergers
     Args:
-        list_of_integers(list) -> List of intergers 
+        list_of_integers(list) -> List of intergers
     Return:
         int(the peak integer(s))
     """
