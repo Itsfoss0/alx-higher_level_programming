@@ -17,6 +17,7 @@ This repository contains the code, concepts, resources and methodologies used to
 * [0x07](./0x07-python-test_driven_development/) -> Test Driven Development
 * [0x08](./0x08-python-more_classes/) -> More on Classes
 * [0x09](./0x09-python-everything_is_object) -> Everything is an object
+* [0x01](./0x10-python-network_0) -> Python Network
 * [0x1A](./0x0A-python-inheritance) -> Inheritance
 * [0X1B](./0x0B-python-input_output) -> File I/O
 * [0x1C](./0x0C-python-almost_a_circle) -> Integrated Mini-project
