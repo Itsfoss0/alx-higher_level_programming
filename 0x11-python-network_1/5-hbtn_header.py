@@ -11,7 +11,7 @@ from requests import get
 from sys import argv
 
 
-def get_alx_intranet(url='https://alx-intranet.hbtn.io/status'):
+def get_alx_intranet(url):
     """
     Send a GET request to the url
     and print the X-Request-Id header value
