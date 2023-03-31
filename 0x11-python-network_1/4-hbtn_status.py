@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 
-from requests import get
 """
 get https://alx-intranet.hbtn.io/status using
 requests and print the response to stdout
 """
+
+from requests import get
 
 
 def get_alx_intranet(url='https://alx-intranet.hbtn.io/status'):
