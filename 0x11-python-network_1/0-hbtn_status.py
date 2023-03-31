@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
-from urllib.request import urlopen
-from urllib.error import URLError
+from urllib import request, error
 """
 Fetch https://alx-intranet.hbtn.io/status
 and print the formated content to stdout
@@ -16,15 +15,16 @@ def request_holberton() -> None:
     Return:
         None
     """
+    url = 'https://alx-intranet.hbtn.io/status'
     try:
-        with urlopen('https://alx-intranet.hbtn.io/status') as response:
+        with request.urlopen(url) as response:
             response = response.read()
             print("Body response:")
             print("\t - type: {}".format(type(response)))
             print("\t - content: {}".format(response))
             print("\t - utf-content: {}".format(response.decode('UTF-8')))
-    except URLError:
-        print("Check your connection and try again.")
+    except error.URLError:
+        print("Check your internet connectivity and try again")
 
 
 if __name__ == "__main__":
