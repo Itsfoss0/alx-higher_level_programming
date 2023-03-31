@@ -1,9 +1,5 @@
-#!/usr/bin/python
-"""
-module for a script to send a request to the URL passed
-in the arguments and print the value of
-X-Request-Id header
-"""
+#!/usr/bin/python3
+"""Find the value of the X-Request-Id in response"""
 
 from urllib import request, error
 from sys import argv
