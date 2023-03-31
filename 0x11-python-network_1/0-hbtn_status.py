@@ -7,14 +7,7 @@ and print the formated content to stdout
 """
 
 
-def request_holberton() -> None:
-    """
-    Send a request to https://alx-intranet.hbtn.io/status
-    Args:
-        None
-    Return:
-        None
-    """
+if __name__ == "__main__":
     url = 'https://alx-intranet.hbtn.io/status'
     try:
         with request.urlopen(url) as response:
@@ -25,7 +18,3 @@ def request_holberton() -> None:
             print("\t- utf-content: {}".format(response.decode('UTF-8')))
     except error.URLError:
         print("Check your internet connectivity and try again")
-
-
-if __name__ == "__main__":
-    request_holberton()
