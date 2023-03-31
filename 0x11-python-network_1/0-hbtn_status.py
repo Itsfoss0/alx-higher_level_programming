@@ -20,9 +20,9 @@ def request_holberton() -> None:
         with request.urlopen(url) as response:
             response = response.read()
             print("Body response:")
-            print("\t - type: {}".format(type(response)))
-            print("\t - content: {}".format(response))
-            print("\t - utf-content: {}".format(response.decode('UTF-8')))
+            print("\t- type: {}".format(type(response)))
+            print("\t- content: {}".format(response))
+            print("\t- utf-content: {}".format(response.decode('UTF-8')))
     except error.URLError:
         print("Check your internet connectivity and try again")
 
