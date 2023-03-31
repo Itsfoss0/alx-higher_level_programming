@@ -16,11 +16,7 @@ def get_alx_intranet(url):
     Send a GET request to the url
     and print the X-Request-Id header value
     """
-    if url:
-        try:
-            return get(url).headers['X-Request-Id']
-        except Exception as e:
-            return e
+    return get(url).headers['X-Request-Id']
 
 
 if __name__ == "__main__":
