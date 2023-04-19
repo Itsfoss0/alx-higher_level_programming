@@ -1,8 +1,8 @@
 #!/usr/bin/python3
+"""Rectangle class based on the Base class"""
+
 import json
 from models.base import Base
-
-"""Rectangle class based on the Base class"""
 
 
 class Rectangle(Base):
