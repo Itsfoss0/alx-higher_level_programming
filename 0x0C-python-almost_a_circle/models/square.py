@@ -1,7 +1,8 @@
 #!/usr/bin/python3
+"""Square class based on Rectangle"""
+
 import json
 from models.rectangle import Rectangle
-"""Square class based on Rectangle"""
 
 
 class Square(Rectangle):
