@@ -1,9 +1,12 @@
 #!/usr/bin/python3
+
+"""
+Almost a circle Project
+Preparing for the AirBnB Clone project
+"""
 import json
 import os.path
 import csv
-
-"""Implelementing Base class"""
 
 
 class Base:
@@ -139,12 +142,13 @@ class Base:
 class NewClass(Base):
     """Base inherite class"""
     __id
+
     def __init__(self, id):
         if id:
             self.id = id
         else:
             self.id = __class__.__id
-    
+
     @property
     def id(self):
         """Id Getter"""
@@ -157,4 +161,3 @@ class NewClass(Base):
             self.id = i_d
         else:
             raise TypeError("id has to be an int")
-    
