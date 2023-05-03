@@ -45,3 +45,12 @@ By the end of this project, you are expected to be able to [explain to anyone]()
 * [X] How to make a GET request with JQuery Ajax
 * [X] How to make a POST request with JQuery Ajax
 * [X] How to listen/bind to DOM events
+
+## More info
+Import Jquery
+
+```javascript
+<head>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+```
