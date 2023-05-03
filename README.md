@@ -28,3 +28,4 @@ This repository contains the code, concepts, resources and methodologies used to
 * [0x12](./0x12-javascript-warm_up) -> Introduction to javascript
 * [0x13](./0x13-javascript_objects_scopes_closures) -> JavaScript scopes, objects and closures
 * [0x14](./0x14-javascript-web_scraping) -> Javascript Web scrapping
+* [0x15](./0x15-javascript-web_jquery) -> Jquery
