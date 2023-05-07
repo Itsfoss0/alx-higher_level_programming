@@ -1,5 +1,4 @@
-const header = $('header');
-header.css('color', 'red');
+$('header').css('color', 'red');
 /*
 const addButton = $('.add-item');
  let taskNo = 1;
@@ -15,8 +14,9 @@ const addButton = $('.add-item');
     console.log(itemsList.html())
  });
 
- const deleteButton = $('.delete-item')
 
+ const deleteButton = $('.delete-item')
+ 
  deleteButton.on('click', function () {
     $('.items').find('li').last().remove()
     taskNo -= 1
